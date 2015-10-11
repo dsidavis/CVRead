@@ -52,6 +52,7 @@ Find the nodes that identify a section and mark those nodes with an attribute, o
 
 
   d)  Text that starts in a font that is not used as much as others in the text.
+        (doesn't work for cv_amir as he uses the same font for headings, but it is a different size.)
        Probably bold, or a larger size
 
        getFonts(doc, TRUE)  gives us the number of characters in each font
@@ -64,10 +65,12 @@ Find the nodes that identify a section and mark those nodes with an attribute, o
        ff = getSectionsByFont(mh)
 
 
-       [Done] Make this take into account the size.  Although if the font name has the size, use that.
+       [Done] Make this take into account the size.  
+        Although if the font name has the size, we should use that rather than the @size attribute.
 
 docs = lapply(list.files("SampleCVs", pattern = "_miner.xml", full = TRUE), pdfMinerDoc)
 names(docs) = sapply(docs, docName)
+lapply(docs, getSectionsByFont)
        
 
 Also, section titles tend to be on a line by themselves, start at the left margin, and do not span the entire width of the page.
