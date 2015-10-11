@@ -1,0 +1,12 @@
+<doc>
+<o txt="foo" id="1"/>
+<o txt="foo" id="2"/>
+<o txt="bar" id="3"/>
+<o txt="xyz" id="4"/>
+
+
+<b txt="foo" id="1">Start</b>
+<b txt="foo" id="2">* a</b>
+<b txt="bar" id="3">* BCD</b>
+<b txt="xyz" id="4">* xyadadasdadad</b>
+</doc>
