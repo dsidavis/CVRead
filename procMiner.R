@@ -64,13 +64,13 @@ function(doc, pages = getNodeSet(doc, "//page"))
 }
 
 removeHeaderFooter =
-function(pages, doc, above = 792 - 36, below = 72*.75, ...)
+function(pages, doc, above = 792 - 60, below = 72*.75, ...)
 {
       # Or use removeNodes( getHeaderByText(pages, doc) )
-    lapply(pages, function(x) removeNodes(getHeaderByPosition(x)), above, ...)
+    lapply(pages, function(x) removeNodes(getHeaderByPosition(x, above, ...)))
 
       # remove the footer
-    lapply(pages, function(x) removeNodes(getFooterByPosition(x)), below, ...)
+    lapply(pages, function(x) removeNodes(getFooterByPosition(x, below, ...)))
 
 }
 
