@@ -1,0 +1,564 @@
+
+ 
+ 
+
+i 
+
+CURRICULUM VITAE (1/07) 
+ 
+
+NIKOLAOS M. TSOUKIAS 
+Assistant Professor 
+
+Department of Biomedical Engineering 
+Florida International University 
+10555 W. Flagler Str., EC 2674 
+
+Miami, Florida 33174 
+[Tel]: (305) 348-7291 
+
+[E-mail]: tsoukias@fiu.edu 
+ 
+
+ 
+
+EDUCATION 
+ 
+
+Ph.D.: Engineering, 1999 
+ Dissertation Title: “Characterization of Nitric Oxide exchange in human lungs” 
+ Dissertation Advisor: Steven C. George 
+ University of California, Irvine 
+ 
+
+M.S.: Chemical & Biochemical Engineering, 1997 
+ University of California, Irvine 
+ 
+
+B.S.: Chemical Engineering, 1994 
+ National Technical University, Athens, Greece 
+ 
+
+ 
+
+EMPLOYMENT  
+ 
+
+(2003-   ) Assistant Professor, Department of Biomedical Engineering, FLORIDA INTERNATIONAL 
+UNIVERSITY, Miami.  
+
+ 
+
+(2000-03 ) Postdoctoral Fellow, Center for Computational Medicine and Biology, Department of 
+Biomedical Engineering, JOHNS HOPKINS UNIVERSITY SCHOOL OF MEDICINE, 
+Baltimore.  
+
+ 
+
+(2001-02) Lecturer, Whiting School of Engineering, JOHNS HOPKINS UNIVERSITY, Baltimore.  
+ 
+
+(1999-00) Postdoctoral Fellow, Department of Chemical and Biochemical Engineering UNIVERSITY OF 
+CALIFORNIA, Irvine.  
+
+ 
+
+ 
+
+HONORS & AWARDS 
+ 
+
+• The 2006 Arthur Guyton Award for Excellence in Integrative Physiology  
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+ii 
+
+TEACHING  EXPERIENCE 
+ 
+
+• Mathematical Modeling of Physiological Systems. (BME 6715: FIU Graduate Course) 
+• Mathematical Modeling of Cellular Systems. (BME 6716: FIU Graduate Course) 
+• Nonlinear Systems in Life Sciences. (BME 6705: FIU Graduate Course) 
+• Biomedical Engineering Modeling and Simulation. (BME 2740: FIU Undergraduate Course) 
+• Senior Design Project. (BME: FIU Undergraduate Course) 
+• Biological Fluid and Solid Mechanics. (Johns Hopkins Graduate Course) 
+ 
+
+RESEARCH  
+ 
+
+(2003- ) Fluorescence microscopy in isolated microvessels. 
+ 
+
+(2003- ) Design of novel Nitric Oxide therapeutics and administration strategies. 
+ 
+
+(2003- ) Modeling Calcium dynamics in the microcirculation. 
+ 
+
+(2000-  ) High Performance Computing simulations of oxygen transport in three-dimensional 
+microvascular networks in the presence of hemoglobin-based blood substitutes. 
+
+ 
+
+(2000-  ) Nitric Oxide transport in the microcirculation in the presence and absence of hemoglobin-based 
+blood substitutes. 
+
+ 
+
+(1999-00) Lung mechanics: Modeling the expiratory flow properties after laser or staple lung volume 
+reduction surgery in emphysema.   
+
+ 
+
+(1998-99) Measurement of the lung diffusing capacity for NO and CO and its dependence on alveolar 
+volume.  Model development and experimental determination in healthy human subjects. 
+
+ 
+
+(1997-00) Endogenous NO exchange dynamics in the lung.   
+ 
+
+(1997-00) Measurement of endogenous NO in exhaled breath of healthy and diseased human and animal 
+subjects  
+
+ 
+
+(1996-97) Computer simulation of ethanol exchange in the lungs  
+ 
+
+(1993-94) Heat and mass transfer in air-drying fruits and vegetables  
+ 
+
+ 
+
+ADVISEES 
+ 
+
+Postdoctoral Fellows 
+• Adam Kapela (2005- ) 
+
+ 
+
+PhD Students  
+• Joe Wu (2005- ) 
+• Sabnam Namin (2006-) 
+• Reshmi Banerjee (2006-) 
+ 
+
+MS Students (Thesis Option) 
+
+
+
+ 
+ 
+
+iii 
+
+• Manu Kanwar (2003-2005)  David Isaza (2003-2005) 
+• Rohit Chawla (2004-2006)  Sara Nofalah (2005- ) 
+ 
+
+Undergraduate Students  
+• Haroldo Silva (2003-2006 )  Jennifer Hall (2005-2006 ) 
+• Luis Alonso  (2006-)   Roxana Ordonez (2006- ) 
+• Adrian Gomez (2006-) 
+
+ 
+
+ 
+
+SERVICE AND MEMBERSHIPS 
+ 
+
+Memberships: 
+• American Heart Association (AHA) 
+• American Physiological Society (APS) 
+• Biomedical Engineering Society (BMES)  
+ 
+
+Grant Reviewerships: 
+• American Heart Association 
+
+ 
+
+Manuscript Reviewerships: 
+• Annals of Biomedical Engineering 
+• European Respiratory Journal 
+• Respiratory Physiology and Neurobiology 
+• Medical Engineering & Physics 
+
+ 
+
+University Service: 
+• Search Committees for Faculty Positions, member  
+• Computational Advisory Committee of the Engineering College, member (2004- ) 
+• Curriculum Committee of the Engineering College, member (2004-06) 
+
+ 
+
+ 
+
+ 
+
+PUBLICATIONS 
+ 
+
+A) PEER-REVIEWED JOURNALS :   Average Impact Factor (4.7 citations/paper/year) 
+ 
+
+A1 Tsoukias, N. M., Z. Tannous, A. F. Wilson and S. C. George. Single Exhalation Profiles of NO and CO2 
+in Humans: Effect of Dynamically Changing Flow Rate. Journal of Applied Physiology 85(2):642-652, 
+1998. [42 citations] 
+
+ 
+
+A2 Tsoukias, N. M. and S. C. George. A Two-Compartment Model of Pulmonary Nitric Oxide Exchange 
+Dynamics. Journal of Applied Physiology 85(2):653-666, 1998. [102 citations] 
+
+ 
+
+A3 Tsoukias, N. M., A. F. Wilson and S. C. George. Effect of Alveolar Volume and Sequential Filling on 
+the Diffusing Capacity of the Lung: I Theory. Respiration Physiology 120(3):231-250, 2000. [11 
+citations] 
+
+ 
+
+A4 Tsoukias, N. M., D. Dabdub, A. F. Wilson and S. C. George. Effect of Alveolar Volume and Sequential 
+Filling on the Diffusing Capacity of the Lung: II Experiment. Respiration Physiology 120(3):251-271, 
+2000. [14 citations] 
+
+
+
+ 
+ 
+
+iv 
+
+ 
+
+A5 Tsoukias, N. M. and S. C. George. A Single Breath technique with variable flow rate to characterize 
+Nitric Oxide Exchange Dynamics in the Lungs. Journal of Applied Physiology 91(1):477-487, 2001. [22 
+citations] 
+
+ 
+
+A6 Tsoukias, N.M. and S.C. George.  Effect of a Volume Dependent Diffusing Capacity on the Exhalation 
+Profile of NO. Annals of Biomedical Engineering 29(9):731-739, 2001. [8 citations] 
+
+ 
+
+A7 Tsoukias, N.M. and A.S. Popel.  Erythrocyte consumption of Nitric Oxide in the presence and absence 
+of plasma-based Hemoglobin. American Journal of Physiology 282(6):H2265-77, 2002. [17 citations] 
+
+ 
+
+A8 Kavdia M., N.M. Tsoukias and A.S. Popel.  A model of Nitric Oxide diffusion in an arteriole: impact of 
+hemoglobin based blood substitutes. American Journal of Physiology 282(6):H2245-53, 2002. [18 
+citations] 
+
+ 
+
+A9 Tsoukias, N.M. and A.S. Popel. A model of nitric oxide capillary exchange. Microcirculation 10(6): 
+479-95, 2003. [11 citation] 
+
+ 
+
+A10 Tsoukias, N.M., M. Kavdia and A.S. Popel.  A theoretical model of nitric oxide transport in arterioles: 
+frequency vs amplitude dependent control of cGMP formation. American Journal of Physiology 
+286(3):H1043-56, 2004. [15 citations] 
+
+ 
+
+A11 Kapela, A.., Tsoukias N.M. and A. Bezerianos.  New aspects of vulnerability in heterogeneous models 
+of ventricular wall and its modulation by loss of cardiac sodium channel function. Medical & Biological 
+Engineering & Computing 43(3):387-94, 2005. 
+
+ 
+
+A12 Ji, J.W., N.M. Tsoukias, D. Goldman, and A.S. Popel. A computational model of oxygen transport in 
+skeletal muscle for sprouting and splitting modes of angiogenesis. Journal of Theoretical Biology 
+241(1):94-108, 2006. [1 citations] 
+
+ 
+
+A13 Tsoukias, N. M., D. Goldman, A. Vadapalli, R. N. Pittman and A. S. Popel. A computational model of 
+oxygen delivery by hemoglobin-based oxygen carriers in three dimensional microvascular networks 
+(submitted), 2006. 
+
+ 
+
+A14 Silva H.S., A. Kapela and N.M. Tsoukias.A mathematical model of plasma membrane electrophysiology 
+and calcium dynamics in vascular endothelial cells. (submitted), 2006. 
+
+ 
+
+ 
+
+B) PEER REVIEWED PAPERS IN CONFERENCE PROCEEDINGS: 
+ 
+
+B1 Tsoukias, N.M., D. Dabdub, A.F. Wilson, and S.C. George. Alveolar volume and Sequential Filling 
+Impact the Estimation of DLCO and DLNO.  Proceedings of the First Joint BMES/EMBS Conference. 1999 
+IEEE Engineering in Medicine and Biology 21st Annual Conference and the 1999 Annual Fall Meeting 
+of the Biomedical Engineering Society. Piscataway, NJ, USA: IEEE, 1999. p.346 vol.1.  
+
+ 
+
+B2  Kapela, A., A. Bezerianos and N.M. Tsoukias. Integrative Mathematical Modeling for Analysis of 
+Microcirculatory Function. Biological and Medical Data Analysis. Lecture Notes in Bioinformatics: 
+161-171, 2006. 
+
+B3  Bezerianos A., A. Kapela and N.M. Tsoukias. Theoretical Investigation of Ca2+ Dynamics in 
+Normal and Hypertensive Vascular Walls. Computers in Cardiology: 161-171, 2006. 
+
+ 
+
+
+
+ 
+ 
+
+v 
+
+ 
+
+C) ABSTRACTS IN CONFERENCE PROCEEDINGS: 
+ 
+
+C1 Tsoukias, N. M., D. S. Mukai, A. F. Wilson and S. C. George. Flow Rate Dependence of Endogenous 
+Nitric Oxide in Humans. AJRCCM 155(4):A558, 1997. 
+
+ 
+
+C2 Tsoukias, N. M. and S. C. George. A Two-Compartment Model for the Exchange of Endogenous Nitric 
+Oxide in Human Lungs. Annals Biomed. Engineer. 25(1):S10, 1997. 
+
+ 
+
+C3 Tsoukias, N. M. and S. C. George. Elimination Rate: A Technique to Identify Alveolar and Airway 
+Contributions to Exhaled NO. AJRCCM 157(3):A369, 1998. 
+
+ 
+
+C4 Tsoukias, N. M., A. F. Wilson and S. C. George. DLNO as A Function of the Alveolar Volume: Effect on 
+Exhaled Nitric Oxide. Annals Biomed. Engineer. 25(1):S10, 1998. 
+
+ 
+
+C5 Tsoukias, N. M. and S. C. George. Effect of Production Rates and DL,NO on the Shape of the Nitric 
+Oxide Exhalation Profile: A Theoretical Study. FASEB J. 12(4):A499, 1998.  
+
+ 
+
+C6 Tsoukias, N. M. and S. C. George. Modeling the Effect of Inspiratory Conditions on the Nitric Oxide 
+Exhalation Profile. European Respiratory Society, 1998. 
+
+ 
+
+C7 Tsoukias, N. M. and S. C. George. A New Method to Measure the Dependence of DLNO and DLCO on 
+Alveolar Volume. AJRCCM  159(3):A843, 1999.  
+
+ 
+
+C8  Tsoukias N.M., and S.C. George. Does endogenous Nitric Oxide approach an equilibrium concentration 
+in the alveoli at end-exhalation? AJRCCM 161(3):A000, 2000. 
+
+ 
+
+C9 Tsoukias, N.M., and S.C. George. A Single Breath Technique with Variable Flow Rate for the 
+measurement of exhaled NO. European Respiratory Society, 2000.  
+
+ 
+
+C10 Tsoukias N.M., A. Vadapalli, D. Goldman, and A.S. Popel. A computational study of oxygen transport 
+in microvascular networks in the presence of Hemoglobin Based Oxygen Carriers. Artificial Cells, 
+Blood Substitutes and Immobilization Biotechnology,29(2):173, 2001. 
+
+ 
+
+C11 Tsoukias N.M., M. Kavdia, and A.S. Popel. Modeling nitric oxide transport in arterioles in the presence 
+of hemoglobin based oxygen carriers. Annals Biomed. Engineer. 29(S1):S58, 2001. 
+
+ 
+
+C12 Tsoukias N.M., A. Vadapalli, D. Goldman, and A.S. Popel. A computational study of tissue oxygenation 
+by hemoglobin based oxygen carriers. Annals Biomed. Engineer. 29(S1):S73, 2001. 
+
+ 
+
+C13 Tsoukias, N.M., M. Kavdia, and A.S. Popel. A theoretical model of nitric oxide transport in arterioles: 
+transient versus sustained NO production. FASEB J. 16(5):A853, 2002. 
+
+ 
+
+C14 Tsoukias N.M., A. Vadapalli, D. Goldman, and A.S. Popel. A computational study of oxygen delivery 
+by hemoglobin-based oxygen carriers from complex microvascular networks. FASEB J. 16(5):A83, 
+2002. 
+
+ 
+
+C15 Kavdia M., N.M. Tsoukias, A.S. Popel. Effect of hemoglobin-based oxygen carrier on smooth muscle 
+nitric oxide availability. FASEB J 16 (5): A853-A853, 2002. 
+
+ 
+
+
+
+ 
+ 
+
+vi 
+
+C16 Kavdia M., N.M. Tsoukias, A.S. Popel. A model of nitric oxide distribution in arterioles in the presence 
+of hemoglobin-based blood substitutes. IVth International Symposium on Current Issues in Blood 
+Substitutes Research, Stockholm, Sweden, 2002. 
+
+ 
+
+C17 Tsoukias N.M. and A.S. Popel. Is there frequency encoded information in EDRF? FASEB J, 2004. 
+ 
+
+C18 Isaza D., M. Kanwar and N.M. Tsoukias.  Experimental determination of Nitric Oxide consumption by 
+red blood cells. Annals Biomed. Engineer. (in press) 2004. 
+
+ 
+
+C19 Isaza D., and N.M. Tsoukias.  Negligible membrane resistance in Nitric Oxide consumption by red blood 
+cells. FASEB J (in press), 2005. 
+
+ 
+
+C20 M. Kanwar, R. Chawla and N.M. Tsoukias. Simultaneous measurement of NO and Ca2+ concentrations 
+in isolated perfused rat mesenteric arterioles. Annals Biomed. Engineer. (in press) 2005. 
+
+ 
+
+C21 Kapela A., H. Silva, A. Bezerianos and N.M. Tsoukias.  A mathematical model of integrated NO/Ca2+ 
+dynamics in rat mesenteric microvessels. Annals Biomed. Engineer. (in press) 2005. 
+
+ 
+
+C22 Kapela A., H. Silva, A. Bezerianos, N.M. Tsoukias.  ‘Mathematical model of endothelium-smooth 
+muscle interaction in regulating microcirculatory tone’, FASEB J. 20(4):A283, 2006 
+
+ 
+
+C23 Silva H., A. Kapela, N.M. Tsoukias. ‘A mathematical model of plasma membrane electrophysiology and 
+calcium dynamics in rat mesenteric endothelial cells’, FASEB J. 20(4):A410, 2006 
+
+ 
+
+C24 Kapela A. and N.M. Tsoukias.  ‘Conducted vasomotor responses in a multicellular mathematical model 
+of a rat mesenteric arteriole. Annals Biomed. Engineer. 2007 
+
+ 
+
+C25 Nofallah S., R. Ordoñez, J. Hall-Ippolito, and N.M. Tsoukias. Estimation of acetylcholine-induced 
+endothelial NO release in vitro using fluorescence microscopy. Annals Biomed. Engineer. 2007 
+
+ 
+
+ 
+
+D) BOOK CHAPTERS: 
+  
+
+D1 Popel A.S., M. Kavdia, N.M. Tsoukias. Effect of Hemoglobin-based blood substitutes on Nitric Oxide 
+transport: Mathematical models.  Keio University International Symposia for Life Sciences and 
+Medicine Vol. 12. Artificial Oxygen Carrier: Its Frontline. 2005 
+
+ 
+
+ 
+
+E) INVITED PRESENTATIONS: 
+ 
+
+E1  4th European Symposium on Biomedical Engineering (University of Patras, June 20-25, 2004) 
+ 
+
+E2  Department of Chemical & Biomedical Engineering at FAMU-FSU (Tallahassee, November 12, 2004)  
+ 
+
+E3  Systems Analysis, Data Mining and Optimization in Biomedicine" (University of Florida, February 2-4, 
+2005) 
+
+E4  3rd Summer School on Emerging Technologies in Biomedicine (University of Patras, July 2-7, 2006) 
+ 
+
+E5 Mathematical Biosciences Institute (Ohio State University, January 22-26, 2007) 
+ 
+
+E6  2007 Experimental Biology (Washington DC, April 28-30, 2007)  
+
+
+
+ 
+ 
+
+vii 
+
+ 
+
+ 
+
+F) THESIS : 
+ 
+
+F1  Study of the shrinkage and porosity in air-drying fruits and vegetables. Diploma Thesis. National 
+Technical University of Athens, Greece, 1994. 
+
+ 
+
+F2  Characterization of Nitric oxide exchange in human lungs.  Ph.D. Thesis. University of California, 
+Irvine, 1999. 
+
+ 
+
+PATENTS : 
+ 
+
+P1  George S.C. and N.M. Tsoukias. An apparatus and method for the estimation of flow independent 
+parameters which characterize the relevant features of Nitric Oxide production and exchange in the 
+human lungs. (WO 01/82782; US 6,866,637) 
+
+ 
+
+ 
+
+RESEARCH FUNDING: 
+ 
+
+RF1  American Heart Association. National Scientist Development Grant (sole PI): Signal transduction in the 
+regulation of microcirculatory vascular tone involving Nitric Oxide, 07/01/04-06/30/08. Award amount: 
+$260,000. [Top 1.28 percentile]. 
+
+ 
+
+RF2  Arthur Guyton Award for excellence in integrative physiology, 2006. Award amount: $15,000 
+ 
+
+RF3  American Heart Association Florida-Puerto Rico Affiliate. Grand-In-Aid (sole PI): Signal transduction 
+in the regulation of microcirculatory vascular tone involving Nitric Oxide, 2004. Award amount: 
+$120,000. (Award was declined as alternative to RF1). 
+
+ 
+
+RF4  Access to Biomedical Engineering. Faculty Research Enhancement Award (sole PI): NO/Ca2+ 
+measurements in isolated vessels of the microcirculation, 2004. Award amount: $5,000. 
+
+

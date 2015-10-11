@@ -1,0 +1,115 @@
+
+Curriculum Vitae
+
+Michael J Mulhearn
+University of California, Davis
+
+Education and Training
+
+• University of Virginia (2009-2011)
+Post-doctoral Research Scientist
+Fermilab Visiting Scientist, L2 Project Manager, High-mass Higgs Convener.
+
+• Columbia University (2004-2009)
+Post-doctoral Research Fellow
+Level 1 Calorimeter Trigger Upgrade, ZH → ``bb Analysis Leader.
+• Massachusetts Institute of Technology (1998-2004)
+
+Ph.D. Physics 2004
+Advisor: Prof. Christoph Paus
+Thesis: A Direct Search for Dirac Magnetic Monopoles
+
+• University of Pittsburgh (1994-1998)
+B.S. Physics and Mathematics 1998
+Chancellor’s Undergraduate Scholar, Phi Beta Kappa, Abraham Pais Award for Scientific
+Writing, Physics Department Undergraduate Research Award.
+
+Research and Professional Experience
+
+• University of California, Davis (2011-)
+Assistant Professor, Department of Physics
+CMS collaboration, Level-1 Trigger Upgrade, Exotic Physics Searches.
+
+Awards
+
+• 2013 Hellman Fellow
+• 2010 Robert Hofstadter Diploma and New Talent Award, Ettore Majorana Foundation
+
+Synergistic Activities
+
+• Presented a public lecture “The Higgs boson: a tale of two cities”, Davis Picnic Day 2012.
+• Presented “Low mass Higgs searches at the Tevatron” at CIPANP 2012.
+• Reviewer for proposals to US DOE CDRD and SBIR-STTR programs (2011-2012).
+• Presented “The D0 Higgs combination” at ICHEP 2010 in Paris.
+
+1
+
+
+
+Selected Publications
+
+1. V.M. Abazov et al. [D0 Collaboration], “Combined search for the standard model Higgs
+boson decaying to bb using the D0 Run II data” Phys. Rev. Lett. 109, 121802 (2012)
+[arXiv:1207.6631].
+
+2. T. Aaltonen et al. [CDF and D0 Collaborations], “Evidence for a particle produced in
+association with weak bosons and decaying to a bottom-antibottom quark pair in Higgs
+boson searches at the Tevatron” Phys. Rev. Lett. 109, 071804 (2012) [arXiv:1207.6436].
+
+3. V.M. Abazov et al. [D0 Collaboration], “Search for Associated Higgs Boson Production
+using Like Charge Dilepton Events in pp Collisions at
+
+√
+s = 1.96 TeV” Phys. Rev. D 84,
+
+092002 (2011) [arXiv:1107.1268].
+
+4. V.M. Abazov et al. [D0 Collaboration], “Search for the Standard Model Higgs Bo-
+son in the H → WW → `νqq¯ Decay Channel”, Phys. Rev. Lett. 106, 171802 (2011)
+[arXiv:1101.6079].
+
+5. V.M. Abazov et al. [D0 Collaboration], “Search for WH Associated Production in 5.3 fb1
+
+of pp¯ Collisions at the Fermilab Tevatron”, Phys. Lett. B 698, 6 (2011) [arXiv:1012.0874].
+
+6. V.M. Abazov et al. [D0 Collaboration], “Search for ZH → `+`bb¯ production in 4.2 fb−1 of
+pp¯ collisions at
+
+√
+s = 1.96 TeV”, Phys. Rev. Lett. 105, 251801 (2010) [arXiv:1008.3564].
+
+7. T. Aaltonen et al. [CDF and D0 Collaborations], “Combined Tevatron Upper Limit on
+gg → H → W+W− and Constraints on the Higgs Boson Mass in Fourth-Generation
+Fermion Models”, Phys. Rev. D 82, 011102 (2010) [arXiv:1005.3216].
+
+8. V.M. Abazov et al. [D0 Collaboration], “Search for the Standard Model Higgs Boson in the
+ZH → ννbb Channel in 5.2 fb−1 of pp¯ Collisions at √s = 1.96 TeV” Phys. Rev. Lett. 104,
+071801 (2010) [arXiv:0912.5285].
+
+9. V.M. Abazov et al. [D0 Collaboration], “Search for Higgs Boson Production in Dilep-
+ton and Missing Energy Final States with 5.4 fb−1 of pp¯ Collisions at
+
+√
+s = 1.96 TeV”,
+
+Phys. Rev. Lett. 104, 061804 (2010) [arXiv:1001.4481].
+
+10. T. Aaltonen et al. [CDF and D0 Collaborations], “Combination of Tevatron searches for
+the standard model Higgs boson in the W+W− decay mode”, Phys. Rev. Lett. 104, 061802
+(2010) [arXiv:1001.4162].
+
+11. M. Abolins et al., “Design and implementation of the new D0 Level-1 calorimeter trigger”,
+Nucl. Instrum. Meth. A 584, 75 (2008) [arXiv:0709.3750].
+
+12. A. Abulencia et al. [CDF Collaboration], “Direct search for Dirac magnetic monopoles in
+pp¯ collisions at
+
+√
+s = 1.96 TeV”, Phys. Rev. Lett. 96, 201801 (2006) [hep-ex/0509015].
+
+13. G. Bauer, M.J. Mulhearn, C. Paus, P. Schieferdecker and S. Tether, “Simulating magnetic
+monopoles by extending GEANT”, Nucl. Instrum. Meth. A 545, 503 (2005).
+
+2
+
+
