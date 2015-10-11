@@ -50,6 +50,7 @@ Find the nodes that identify a section and mark those nodes with an attribute, o
 
   c)  Text with following text on new lines has list item identifiers: numbers, bullets.
 
+
   d)  Text that starts in a font that is not used as much as others in the text.
        Probably bold, or a larger size
 
@@ -63,12 +64,17 @@ Find the nodes that identify a section and mark those nodes with an attribute, o
        ff = getSectionsByFont(mh)
 
 
-       Make this take into account the size.
+       [Done] Make this take into account the size.  Although if the font name has the size, use that.
+
+docs = lapply(list.files("SampleCVs", pattern = "_miner.xml", full = TRUE), pdfMinerDoc)
+names(docs) = sapply(docs, docName)
        
 
 Also, section titles tend to be on a line by themselves, start at the left margin, and do not span the entire width of the page.
 
+   findShortLines() finds short lines and checks there is nothing else on that "line"/vertical position. (Similarly, findUnderlines() does this calculation also.)
 
+--------
 
 To find the headers and footers, we can use
 getHeaderByPosition, getFooterByPosition
@@ -86,6 +92,8 @@ In that case, we can remove other content as extreme as this.
 
 We can extend getFooterByPosition() to examine the pattern of the text it finds.
 
+
+---------
 
 
 cv_amir - the first two sections   (Current Position and Professional Licensure) have the content not indented so we miss these
