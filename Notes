@@ -1,0 +1,20 @@
+pdfquery can produce an XML tree
+  it loses the first letter  of some start words of section.
+
+pdfminer
+  -t xml  breaks the text into letters. To low-level
+  -t html  keeps letters as words and sentences.
+        Adds the font info.
+        Have page information.
+        Uses line breaks rather than paragraphs.
+
+
+tika - 
+   html
+
+
+--------------
+
+References
+
+When 

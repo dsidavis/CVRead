@@ -593,15 +593,15 @@ function(doc, widthPercent = .7, allCaps = FALSE, font = NA, marThreshold = 12)
     nodes = getNodeSet(doc, xp, xpathFuns = list('get-indent' = getIndent, 'getBBoxEl' = getBBoxEl))
 
     if(length(nodes) == 0)
-        return(NULL)
+       return(NULL)
     
     pos = getBBox(nodes)
     ok = sapply(pos[, 2], function(pos)  length(findTextOnSameLine(pos, doc)) == 1)
 
     if(allCaps)
-      nodes[ok][ isUpperCase(sapply(nodes[ok], xmlValue)) ]
+       nodes[ok][ isUpperCase(sapply(nodes[ok], xmlValue)) ]
     else
-      nodes[ok]
+       nodes[ok]
 }
 
 
