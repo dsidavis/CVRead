@@ -3,10 +3,9 @@ cleanText =
     # This is for removing non-printing characters and other such text in
     # XML nodes. Kim's document is an example of this.
     #
+    # extend this.
 function(x)
-     # Not quite right yet.
- gsub("\\t\\r", " ", gsub("", "", x))   
-
+  gsub("\\t\\r", " ", gsub("", "", gsub("  ", " ", x))   )
 
 
 pdfMinerDoc =
@@ -16,7 +15,7 @@ pdfMinerDoc =
     # removing the <page> nodes
     # and any running header content
     #
-function(doc, removePageNodes = TRUE, removeHeader = TRUE, sub = cleanText)
+function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
 {
    if(is.character(doc)) {
        if(grepl("\\.pdf$", doc))
@@ -52,15 +51,20 @@ function(doc, removePageNodes = TRUE, removeHeader = TRUE, sub = cleanText)
 #   }   
    
    if(removePageNodes)
-       lapply(pages, replaceNodeWithChildren)
-   
-browser()   
-   
+       removePages(, pages)
+
    doc
+#   structure(doc, class = c("PDFMinerDoc", class(doc)))
+}
+
+removePages =
+function(doc, pages = getNodeSet(doc, "//page"))
+{
+    lapply(pages, replaceNodeWithChildren)
 }
 
 removeHeaderFooter =
-function(pages, doc)
+function(pages, doc, ...)
 {
     header = lapply(pages, `[[`, 1)
     htext = sapply(header, xmlValue)
@@ -71,13 +75,24 @@ function(pages, doc)
     removeNodes(header[ duplicated(htext) ])
     
     others = getNodeSet(doc, sprintf("//textbox[@bbox and  get-bottom(@bbox) >= %f]", bottom),
-                          xpathFuns = list('get-bottom' = getBottom))
+                         xpathFuns = list('get-bottom' = getBottom))
 
     removeNodes(others)
-    
 
-
+      # remove the footer
+    lapply(pages, function(x) removeNodes(getFooter(x)), ...)
 }
+
+getFooter =
+    #
+    # Find text lower than below.  3/4 of an inch.
+    #
+function(page, below = 72*.75)
+{
+    nodes = getNodeSet(page, sprintf("//textline[@bbox and get-bottom(@bbox) < %f]", below),
+                         xpathFuns = list('get-bottom' = getBottom))
+}
+    
 
 
 convertPDF =
@@ -108,12 +123,15 @@ getSections =
     #
     #
     #
-function(doc, setClass = TRUE, asNodes = TRUE)
+function(doc, setClass = TRUE, asNodes = TRUE, useIndent = TRUE)
 {
    if(is.character(doc))
       doc = pdfMinerDoc(doc)
 
-   ans  = getSectionsByIndent(doc, getMargins(doc)["left"], asNodes)
+  
+   ans  = if(useIndent)
+             getSectionsByIndent(doc, getMargins(doc)["left"], asNodes)
+
    if(!length(ans)) 
       ans = getNodeSet(doc, "//text[contains(@font, 'Bold')]")
 
@@ -214,6 +232,10 @@ function(nodes)
 
 
 getWithinSection =
+    #
+    # Get the nodes within each section identified by getSections() and marked with a class = 'sectionTitle' attribute and a @sectionNum attribute.
+    # This @class attribute means we can work with the document object here.
+    #
 function(doc, sectionNodes = getNodeSet(doc, "//textbox[@class = 'sectionTitle']"))
 {
   ans = lapply(sectionNodes, function(x) {
@@ -242,7 +264,14 @@ getBottom =
     # Also called from XPath.
 function(bbox)
 {
-    as.numeric(strsplit(bbox[[1]], ",")[[1]][2])
+  as.numeric(strsplit(bbox[[1]], ",")[[1]][2])
+}
+
+getBBoxEl =
+    # Also called from XPath.
+function(bbox, pos)
+{
+  as.numeric(strsplit(bbox[[1]], ",")[[1]][pos])
 }
 
 
@@ -278,9 +307,48 @@ function(doc, name = FALSE)
 getFonts =
     #
     # Get the table of counts of the font names/descriptions used in the documents
-function(doc)
+    # either by number of <text> nodes or by the number of characters using that font.
+    # By character allows us to better guess the default font for the document.
+    #
+    #
+function(doc, byChar = FALSE)
 {
-    table(unlist(getNodeSet(doc, "//text/@font")))
+    if(byChar) {
+        nodes = getNodeSet(doc, "//text")
+        font = sapply(nodes, xmlGetAttr, "font")
+        nchar = nchar(sapply(nodes, xmlValue, trim = TRUE))
+        tapply(nchar, font, sum)
+    } else
+        table(unlist(getNodeSet(doc, "//text/@font")))
+}
+
+
+getSectionsByFont =
+    #
+    # This is another approach to try to identify section titles
+    #
+    # This examines all the fonts used in the document and then
+    # for all but the most commonly used font (assumed to be general text)
+    # it collects all of the lines that are resaonably short that use
+    # these fonts.
+    #
+function(doc, ..., asDataFrame = TRUE)
+{
+    tt = sort(getFonts(doc, TRUE))
+    fonts = names(tt)[ - length(tt) ]
+    ans = lapply(fonts, function(f)
+                           findShortLines(doc, font = f, ...))
+    
+    names(ans) = fonts
+
+    if(asDataFrame) {
+        tmp = lapply(ans, function(x) sapply(unlist(x), xmlValue))
+        page = lapply(ans, function(x)  rep(seq(along = x), sapply(x, length)))
+        font = rep(fonts, sapply(tmp, length))
+        size = lapply(ans, function(x) sapply(unlist(x), getNodeSet, ".//text/@size"))
+        data.frame(text = unlist(tmp), font = font, size = as.numeric(unlist(size)), page = unlist(page), stringsAsFactors = FALSE, row.names = NULL)
+    } else
+        ans
 }
 
 
@@ -288,10 +356,13 @@ getBBox = getIndentations =
     #
     # a matrix of bboxes for the <textline> nodes
     #
-function(doc, bbox = getNodeSet(doc, "//textline/@bbox"))
+function(doc, bbox = getNodeSet(doc, ".//textline/@bbox"))
 {
   if(missing(bbox) && is.list(doc) && all(sapply(doc, inherits, "XMLInternalElementNode")))
      bbox = lapply(doc, xmlGetAttr, "bbox")
+
+  if(length(bbox) == 0)
+     return(NULL)
       
   m = do.call(rbind, strsplit(unlist(bbox), ","))
   mode(m) = "numeric"
@@ -325,7 +396,7 @@ function(node, sub = NULL)
 }
 
 
-showBoxes =
+plot.PDFMinerDoc = showBoxes =
     #
     # showBoxes(pdfMinerDoc("SampleCVs/cv_amir.pdf")))
     #
@@ -356,3 +427,162 @@ function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
     rect(bbox[, 1], bbox[, 2], bbox[, 3], bbox[, 4])
 }
 
+
+
+
+textWidth =
+function(nodes)
+{
+  UseMethod("textWidth")
+}
+
+textWidth.XMLInternalDocument =
+function(nodes)
+{
+    textWidth(getNodeSet(nodes, "//textline"))
+}
+
+textWidth.list = textWidth.XMLNodeSet =
+function(nodes)
+{
+   bbox = getBBox(nodes)
+   widths = bbox[,3] - bbox[,1]
+   structure(widths, names = sapply(nodes, xmlValue))
+}
+
+
+
+findUnderlines =
+function(doc, ...)
+    UseMethod("findUnderlines")
+
+findUnderlines.character =
+function(doc, ...)
+  findUnderlines(pdfMinerDoc(doc, removePageNodes = FALSE))
+
+findUnderlines.XMLInternalDocument =
+function(doc, ...)
+{
+    findUnderlines(getNodeSet(doc, "//page"))
+}
+
+findUnderlines.XMLNodeSet =
+function(doc, ...)
+{
+    lapply(doc, findUnderlines)
+}
+
+findUnderlines.XMLInternalElementNode =
+    #
+    # Add the tests for the line going all the way across, or that there is no other text on that line.
+    #
+    #
+function(doc, threshold = 4, ...)
+{
+ rects = getNodeSet(doc, ".//rect | .//line[@linewidth > 0]")
+ if(length(rects) == 0)
+     return(NULL)
+ 
+ rects = getBBox(rects)
+
+
+ lines = lapply(rects[, "bottom"],
+                function(y) {
+                    els = getNodeSet(doc, sprintf(".//textline[@bbox and abs(get-bottom(@bbox) - %f) < %f and not(normalize-space(.) = '')]", y, threshold),
+                                      xpathFuns = list('get-bottom' = getBottom))
+
+                    if(length(els)) {
+                        pos = getBBox(els)[, 2]
+                        tmp = lapply(pos, findTextOnSameLine, doc)
+                        i = sapply(tmp, length) == 1
+if(!all(i))    browser()
+                        els = els[i]
+                    }
+                    els
+                })
+
+ lines[ sapply(lines, length) > 0 ]
+}
+
+findTextOnSameLine =
+function(y, doc)
+{
+   lines =  getNodeSet(doc, sprintf(".//textline[@bbox and get-bottom(@bbox) = %f and not(normalize-space(.) = '') ]", y),
+                        xpathFuns = list('get-bottom' = getBottom))
+}
+
+
+
+
+findNumberedSectionTitle =
+function(doc)
+{
+  els = getNodeSet(doc, "//textbox[ starts-with-a-number(.) ]/preceding-sibling::textbox[ not(starts-with-a-number(.)) ][1]",
+                     xpathFuns = list('starts-with-a-number' = startsWithANumber))
+}
+
+startsWithANumber =
+function(x)
+{
+  grepl("^[0-9]+[[:punct:]]?", xmlValue(x[[1]]))
+}
+
+
+findBulletedSectionTitle =
+function(doc)
+{
+  els = getNodeSet(doc, "//textbox[ starts-with(., '•') ]/preceding-sibling::textbox[ not(starts-with(., '•')) ]")
+}
+
+
+
+findShortLines =
+function(doc, widthPercent = .7, allCaps = FALSE, font = NA)
+  UseMethod("findShortLines")
+
+findShortLines.character =
+function(doc, widthPercent = .7, allCaps = FALSE, font = NA)    
+  findShortLines(pdfMinerDoc(doc, removePageNodes = FALSE), widthPercent, allCaps, font)
+
+findShortLines.XMLInternalDocument =
+function(doc, widthPercent = .7, allCaps = FALSE, font = NA)    
+  xpathApply(doc, "//page", findShortLines, widthPercent, allCaps, font)
+
+
+findShortLines.XMLInternalElementNode =
+    #
+    #XXX We have an issue with some <text> nodes have the wrong bbox that are too narrow, (e.g. Mulhearn's "Education and Training")
+    # and some <textline> nodes that are too big
+    #
+function(doc, widthPercent = .7, allCaps = FALSE, font = NA, marThreshold = 12)
+{
+#cat("Page", xmlGetAttr(doc, "id"), font, "\n")
+    mar = getMargins(doc)
+    fontQuery = if(!is.na(font))
+                  sprintf("text/@font = '%s' and", font)
+                else
+                   ""
+    xp = sprintf(".//textline[@bbox and string-length(normalize-space(.)) > 1 and %s abs(get-indent(@bbox) - %f) < %f and getBBoxEl(@bbox, 3) < %f]",
+                  fontQuery, mar[1],  marThreshold, mar[3]*widthPercent)
+    
+    
+    nodes = getNodeSet(doc, xp, xpathFuns = list('get-indent' = getIndent, 'getBBoxEl' = getBBoxEl))
+
+    if(length(nodes) == 0)
+        return(NULL)
+    
+    pos = getBBox(nodes)
+    ok = sapply(pos[, 2], function(pos)  length(findTextOnSameLine(pos, doc)) == 1)
+
+    if(allCaps)
+      nodes[ok][ isUpperCase(sapply(nodes[ok], xmlValue)) ]
+    else
+      nodes[ok]
+}
+
+
+isUpperCase =
+function(x)
+{
+    x == toupper(x)
+}

@@ -1,0 +1,10 @@
+Fix the removal of headers
+   Mulhearn_CV.pdf - chopping of the Selected Publications on the second page.
+
+
+
+[Done] oo = getSectionsByFont(mh)
+         Mulhearn_CV.pdf  - not getting the Selected Publications
+
+
+get the metadata from the PDF so we know how it was created, etc.

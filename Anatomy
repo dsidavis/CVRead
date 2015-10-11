@@ -1,0 +1,85 @@
+What makes a section header
+
+ Different font family, size or face (bold, italic) than text before or after it.
+ Short phrase  (exclude text in parenthesis)
+ Text on a line followed by a list (bulleted or enumerated)
+     getNodeSet(doc, "//p[ not(contains(., '•')) and contains(following-sibling::p, '•')]")
+ Maybe further to the left than the text preceding/following it.
+
+
+(Some) Bullets are &bull; in Tika's world. How do we query those in XPath.
+
+
+Tika breaks some sentences into several paragraphs.
+But pdfMiner breaks each line into its own node, and even physically separate parts of a line
+into separate nodes.
+  e.g. Mulhearn's publications are on different lines in pdfminer's tree, but in tika's HTML 
+    they are mostly in one <p>  (but not #3
+
+
+In pdfMiner's output, the text can be broken up into different <textbox> nodes that are out of sequence.
+We have to look at the location to put them back together again.
+  See Mulhearn , publication #9 in PDF
+  But in the Tika HTML, we get 
+
+
+
+
+Strategy
+
+Find running header/footer information and remove it
+
+Find any lines that have an "underline" right below them.
+
+Remove the <page> nodes
+
+Find the nodes that identify a section and mark those nodes with an attribute, or put all the nodes
+  between these section nodes within a <section>
+
+ To identify a section title, we have various different approaches.
+  A problem is to know which order to pursue them and evaluate the results.
+
+  a)  Title indented to the left of the following text, i.e. the following text has more indentation.
+        getSectionsByIndent()
+
+  b)  Underline directly below a line
+        1)  all the way to the other side of the page
+        2)  or to the end of the text and there is no other text on that line.
+
+        findUnderlines()
+
+  c)  Text with following text on new lines has list item identifiers: numbers, bullets.
+
+  d)  Text that starts in a font that is not used as much as others in the text.
+       Probably bold, or a larger size
+
+       getFonts(doc, TRUE)  gives us the number of characters in each font
+       The font for the section titles should yield a reasonably small count.
+       We can then look at the text for the less commonly used fonts and also
+       check that the section titles start at the left margin.
+
+       ff = getSectionsByFont(kim)
+       mh = pdfMinerDoc("SampleCVs/Mulhearn_CV.pdf")
+       ff = getSectionsByFont(mh)
+
+
+       Make this take into account the size.
+       
+
+Also, section titles tend to be on a line by themselves, start at the left margin, and do not span the entire width of the page.
+
+
+
+
+cv_amir - the first two sections   (Current Position and Professional Licensure) have the content not indented so we miss these
+
+The two lines
+Service, Committee & Panel Assignments
+National and International
+are at the same level of indentation, so we don't pick up the first one as the top-level section header.
+
+The same thing happens with Publications and Journal Publications
+ But this is okay for our purposes
+
+We could handle this situation by looking back at the preceeding  nodes and recognizing that there
+is no content between them.
