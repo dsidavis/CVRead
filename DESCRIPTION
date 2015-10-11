@@ -1,0 +1,15 @@
+Package: CVRead
+Title: Extract information from Curriculum Vitae/Resume in PDF
+Version: 0.1-0
+Description: This is a package to read CVs/Resumes as PDF documents and extract
+  different 
+Author: Duncan Temple Lang and others coming soon!
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+License: BSD_3_clause + file LICENSE
+Depends: XML (>= 3.99.0)
+Comment: This depends on enhacements to the XML package that allow us to 
+     specify R functions (and C routines) for implementing XPath functions.
+     We make quite a lot of use of this.
+     Install the package from source via
+       install.packages("XML", repos = "http://www.omegahat.org/R")
+
