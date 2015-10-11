@@ -70,6 +70,23 @@ Also, section titles tend to be on a line by themselves, start at the left margi
 
 
 
+To find the headers and footers, we can use
+getHeaderByPosition, getFooterByPosition
+or
+getHeaderByText
+
+    lapply(getNodeSet(pamir, "//page"), getHeaderByPosition)
+
+The ByPosition functions use a threshold to specify the margin and that text above/below this is considered
+a header/footer.
+
+getHeaderByText() examines the first element of a <page> and then sees if it is repeated across page.
+If it is, then this is a header and this defines the position considered a header/footer.
+In that case, we can remove other content as extreme as this.
+
+We can extend getFooterByPosition() to examine the pattern of the text it finds.
+
+
 
 cv_amir - the first two sections   (Current Position and Professional Licensure) have the content not indented so we miss these
 

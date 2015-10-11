@@ -64,35 +64,59 @@ function(doc, pages = getNodeSet(doc, "//page"))
 }
 
 removeHeaderFooter =
-function(pages, doc, ...)
+function(pages, doc, above = 792 - 36, below = 72*.75, ...)
 {
+      # Or use removeNodes( getHeaderByText(pages, doc) )
+    lapply(pages, function(x) removeNodes(getHeaderByPosition(x)), above, ...)
+
+      # remove the footer
+    lapply(pages, function(x) removeNodes(getFooterByPosition(x)), below, ...)
+
+}
+
+getFooterByPosition =
+    #
+    # Find text lower than below.  3/4 of an inch.
+    #
+    #  We could check for a pattern to make certain it is not just
+    #  additional text, e.g. overflow, footnote, etc.
+    #
+function(page, below = 72*.75)
+{
+    nodes = getNodeSet(page, sprintf(".//textline[@bbox and get-bottom(@bbox) < %f]", below),
+                         xpathFuns = list('get-bottom' = getBottom))
+}
+    
+
+getHeaderByPosition =
+function(page, above = 792 - 60) # half inch
+{
+    nodes = getNodeSet(page, sprintf(".//textline[@bbox and getBBoxEl(@bbox, 2) > %f]", above),
+                         xpathFuns = list('getBBoxEl' = getBBoxEl))
+}
+
+
+getHeaderByText =
+function(pages, doc)
+{
+        # Assumes the header is the first thing!!
     header = lapply(pages, `[[`, 1)
     htext = sapply(header, xmlValue)
 
     bbox = getBBox(header)
     bottom = max(bbox[,2])
 
-    removeNodes(header[ duplicated(htext) ])
-    
-    others = getNodeSet(doc, sprintf("//textbox[@bbox and  get-bottom(@bbox) >= %f]", bottom),
+       # if none duplicated, then we have not identified the 
+    if(any(duplicated(htext))) {
+       others = getNodeSet(doc, sprintf("//textbox[@bbox and  get-bottom(@bbox) >= %f]", bottom),
                          xpathFuns = list('get-bottom' = getBottom))
 
-    removeNodes(others)
+#        removeNodes(others)
+    } else
+       others = list()
 
-      # remove the footer
-    lapply(pages, function(x) removeNodes(getFooter(x)), ...)
+    c( header[ duplicated(htext) ], others)
 }
-
-getFooter =
-    #
-    # Find text lower than below.  3/4 of an inch.
-    #
-function(page, below = 72*.75)
-{
-    nodes = getNodeSet(page, sprintf("//textline[@bbox and get-bottom(@bbox) < %f]", below),
-                         xpathFuns = list('get-bottom' = getBottom))
-}
-    
 
 
 convertPDF =
