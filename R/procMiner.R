@@ -58,9 +58,10 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
 }
 
 removePages =
-function(doc, pages = getNodeSet(doc, "//page"))
+function(doc = as(pages[[1]], "XMLInternalDocument"), pages = getNodeSet(doc, "//page"))
 {
     lapply(pages, replaceNodeWithChildren)
+    doc
 }
 
 removeHeaderFooter =
@@ -125,7 +126,7 @@ convertPDF =
     #
     #XXX Need to locate the pdfminer/tools/pdf2txt.py script
     #
-function(filename, pdfminer = "pdfminer/tools/pdf2txt.py")
+function(filename, pdfminer = getOption("PDF2TXT", "pdf2txt.py"))
 {
     cmd = sprintf("%s -t xml %s", pdfminer, filename)
     system(cmd, intern = TRUE)

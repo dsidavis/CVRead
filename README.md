@@ -23,3 +23,13 @@ This extensibility is very important, as is the ability to determine
 whether a set of results is correct for a given PDF.
 
 
+To convert a PDF document to XML in the format we want, you will need to
+install pdfminer <http://www.unixuser.org/~euske/python/pdfminer/>.
+The script we want is pdf2txt.py. 
+You can place this anywhere and add the directory to your shell's PATH variable.
+Alternatively, you can specify its location using the R option PDF2TXT, e.g.,
+```R
+options(PDF2TXT = "PythonTools/pdfminer/tools/pdf2txt.py")
+```
+
+
