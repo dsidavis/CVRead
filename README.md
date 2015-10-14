@@ -1,7 +1,7 @@
 This is a package that explores reading PDF files for curricula vitae or resume 
 and to extract information from these.
 
-The file Anatomy provides some thoughts and approaches to identifying the different
+The file (Anatomy) provides some thoughts and approaches to identifying the different
 pieces.
 
 
