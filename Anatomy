@@ -48,8 +48,21 @@ Find the nodes that identify a section and mark those nodes with an attribute, o
 
         findUnderlines()
 
-  c)  Text with following text on new lines has list item identifiers: numbers, bullets.
+  c)  Text such that following text on new lines has list item identifiers: numbers, bullets.
+        findNumberedSectionTitle() & findBulletedSectionTitle()
 
+       For example, 
+          getNodeSet(mh, "//textline[starts-with(., '•')]/preceding-sibling::textline[not(starts-with(., '•'))]")
+
+          getNodeSet(mh, "//textline[starts-with-number(.)]/preceding-sibling::textline[not(starts-with-number(.))]",
+                      xpathFuns = list('starts-with-number' = startsWithANumber))
+
+       Of course, we have to know to use • for a bullet.  We can find the set of possible such values
+       as the first "word" on a line, or have a known set.
+
+      We really want to restrict this to be the first text on a given line.
+
+      Deal with <textbox> with multiple <textline> and with a <textbox> followed by another <textbox>
 
   d)  Text that starts in a font that is not used as much as others in the text.
         (doesn't work for cv_amir as he uses the same font for headings, but it is a different size.)

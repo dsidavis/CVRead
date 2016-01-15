@@ -537,13 +537,11 @@ function(y, doc)
 }
 
 
-
-
 findNumberedSectionTitle =
 function(doc)
 {
-  els = getNodeSet(doc, "//textbox[ starts-with-a-number(.) ]/preceding-sibling::textbox[ not(starts-with-a-number(.)) ][1]",
-                     xpathFuns = list('starts-with-a-number' = startsWithANumber))
+  getNodeSet(doc, "//textbox[ starts-with-a-number(.) ]/preceding-sibling::textbox[ not(starts-with-a-number(.)) ][1]",
+              xpathFuns = list('starts-with-a-number' = startsWithANumber))
 }
 
 startsWithANumber =
@@ -552,12 +550,12 @@ function(x)
   grepl("^[0-9]+[[:punct:]]?", xmlValue(x[[1]]))
 }
 
-
 findBulletedSectionTitle =
 function(doc)
 {
   els = getNodeSet(doc, "//textbox[ starts-with(., '•') ]/preceding-sibling::textbox[ not(starts-with(., '•')) ]")
 }
+
 
 
 
@@ -611,3 +609,6 @@ function(x)
 {
     x == toupper(x)
 }
+
+
+
