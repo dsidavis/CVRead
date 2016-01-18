@@ -1,6 +1,6 @@
 library(RCurl)
-library(RJSONIO)
-library(rcrossref)
+#library(RJSONIO)
+#library(rcrossref)
 
 crossRef =
 function(text, url = "http://search.crossref.org/dois")
