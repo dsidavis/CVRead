@@ -28,7 +28,7 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
 
    xpathApply(doc, "//layout | //line[@linewidth = 0]", removeNodes)
 
-   pages = getNodeSet(doc, "//page")
+   pages = getPages(doc)
    root = xmlRoot(doc)
    xmlAttrs(root) = c(numPages = length(pages))
 
@@ -56,6 +56,13 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
    doc
 #   structure(doc, class = c("PDFMinerDoc", class(doc)))
 }
+
+getPages = 
+function(doc)
+{
+  getNodeSet(doc, "//page")
+}
+
 
 removePages =
 function(doc = as(pages[[1]], "XMLInternalDocument"), pages = getNodeSet(doc, "//page"))
