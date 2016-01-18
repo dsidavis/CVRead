@@ -237,6 +237,9 @@ browser()
 getAllText =
 function(nodes, collapse = "\n")
 {
+  if(inherits(nodes, "XMLAbstractNode"))
+     nodes = xmlChildren(nodes)
+  
   paste(sapply(nodes, xmlValue), collapse = collapse)
 } 
 
@@ -249,10 +252,12 @@ function(nodes, convert = getAllText, ...)
 
 
 markSection =
+    # Set the class sectionTitle on the nodes along with the section number
 function(nodes)
 {
-  invisible(mapply(function(x, idx) xmlAttrs(x) = c(class = "sectionTitle", sectionNum = idx),
-                      nodes, seq(along = nodes)))
+  invisible(mapply(function(x, idx)
+                       xmlAttrs(x) = c(class = "sectionTitle", sectionNum = idx),
+                   nodes, seq(along = nodes)))
 }
 
 
@@ -450,6 +455,10 @@ function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
 
     plot(0, xlim = margins[c("left", "right")], ylim = margins[c("bottom", "top")], type = "n", xlab = "", ylab = "", ...)
     rect(bbox[, 1], bbox[, 2], bbox[, 3], bbox[, 4])
+
+    bb = xpathSApply(doc, "./line | ./rect", xmlGetAttr, "bbox")
+    r = matrix(as.numeric(unlist(strsplit(bb, ","))), , 4, byrow = TRUE)
+    rect(r[,1], r[,2], r[,3], r[,4], col = "lightgray", border = "green", lty = 2)
 }
 
 
