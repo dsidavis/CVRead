@@ -1,0 +1,8 @@
+[get meta data from PDF]
+
+http://www.unixuser.org/~euske/python/pdfminer/programming.html
+
+Does pdfminer obtain the  color but not add it to the XML?
+Or do we have to enhance the code to extract this from the PDF stream.
+
+minecart  https://pypi.python.org/pypi/minecart/0.2
