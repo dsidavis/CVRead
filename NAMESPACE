@@ -1,1 +1,7 @@
 exportPattern(".*")
+
+S3method("[[", "PDFMinerDoc")
+S3method("[", "PDFMinerDoc")
+
+S3method("sapply", "PDFMinerDoc")
+S3method("lapply", "PDFMinerDoc")

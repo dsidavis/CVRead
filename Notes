@@ -1,8 +1,19 @@
+Integrate the Pythin colour package.
+
+PDF Reference
+http://www.adobe.com/devnet/pdf/pdf_reference.html
+http://partners.adobe.com/public/developer/en/pdf/PDFReference.pdf
+http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/PDF32000_2008.pdf
+
+https://www.binpress.com/tutorial/manipulating-pdfs-with-python/167
+
+Perhaps use XPdf for speed when we have worked out the algorithm/heuristic approaches.
+
 pdfquery can produce an XML tree
   it loses the first letter  of some start words of section.
 
 pdfminer
-  -t xml  breaks the text into letters. To low-level
+  -t xml  breaks the text into letters. Too low-level
   -t html  keeps letters as words and sentences.
         Adds the font info.
         Have page information.
@@ -18,3 +29,39 @@ tika -
 References
 
 When 
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+
+An alternative is pdf2json, a node.js Javascript package.
+And another is https://github.com/mozilla/pdf.js
+ or https://github.com/mozilla/pdfjs-dist
+
+or 
+  https://poppler.freedesktop.org/  (based on xpdf-3.0 - C/C++ code
+
+http://zderadicka.eu/parsing-pdf-for-fun-and-profit-indeed-in-python/
+
+
+* Problem appears to be doesn't put space in all text. *
+ See Chris Polage's paper ioi150070.pdf and text on the first page
+   Themain... which should be "The main ..."
+
+Is pdf2json still active?
+
+mkdir tmp
+pdf2json -f ioi150070.json -o tmp/
+
+(Note we need the trailing / - bad!)
+
+j = fromJSON("tmpioi150070.json")
+names(j[[1]])
+[1] "Transcoder" "Agency"     "Id"         "Pages"      "Width"     
+
+length(j[[1]]$Pages)
+
+
+p1 = j[[1]]$Pages[[1]]
+names(p1)
+[1] "Height"  "HLines"  "VLines"  "Fills"   "Texts"   "Fields"  "Boxsets"
+

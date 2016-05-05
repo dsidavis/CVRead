@@ -15,7 +15,7 @@ pdfMinerDoc =
     # removing the <page> nodes
     # and any running header content
     #
-function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
+function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText, removeZeroWidthLines = TRUE)
 {
    if(is.character(doc)) {
        if(grepl("\\.pdf$", doc))
@@ -26,7 +26,8 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
 
    xpathApply(doc, "//textline", collapseTextLine, sub)
 
-   xpathApply(doc, "//layout | //line[@linewidth = 0]", removeNodes)
+   if(removeZeroWidthLines)
+      xpathApply(doc, "//layout | //line[@linewidth = 0]", removeNodes)
 
    pages = getPages(doc)
    root = xmlRoot(doc)
@@ -44,7 +45,7 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
    if(removeHeader) 
        removeHeaderFooter(pages, doc)
 
-# Was thinking we may have to recognized and use different margin values on alternating pages   
+# Was thinking we may have to recognize and use different margin values on alternating pages   
 #   margins = sapply(pages, function(x) getMargins(xmlChildren(x)))
 #   if(!all(apply(margins, 1, function(x) length(unique(x)) ) == 1)) {
 #       browser()
@@ -53,9 +54,30 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText)
    if(removePageNodes)
        removePages(, pages)
 
-   doc
-#   structure(doc, class = c("PDFMinerDoc", class(doc)))
+#   doc
+   structure(doc, class = c("PDFMinerDoc", class(doc)))
 }
+
+`[[.PDFMinerDoc` =
+function(x, i, j, ...)
+{
+    getPages(x)[[i]]
+}
+
+`[.PDFMinerDoc` =
+function(x, i, j, ...)
+{
+    getPages(x)[i, ...]
+}
+
+lapply.PDFMinerDoc =
+function(X, FUN, ...)
+  lapply(getPages(X), FUN, ...)
+
+sapply.PDFMinerDoc =
+function(X, FUN, ...)
+  sapply(getPages(X), FUN, ...)
+
 
 getPages = 
 function(doc)
@@ -313,6 +335,18 @@ function(bbox, pos)
 
 
 
+getCurves =
+function(doc, nodes = getNodeSet(doc, ".//curve"))
+{
+    lapply(nodes, getCurve)
+}
+
+getCurve =
+function(node, pts = xmlGetAttr(node, "pts"))
+{
+   matrix(as.numeric(unlist(strsplit(pts, ","))),, 2, byrow = TRUE)
+}
+
 getFontSizes =
     #
     # return a table of the counts for different font sizes
@@ -393,17 +427,34 @@ getBBox = getIndentations =
     #
     # a matrix of bboxes for the <textline> nodes
     #
-function(doc, bbox = getNodeSet(doc, ".//textline/@bbox"))
+function(doc, bbox = sapply(nodes, xmlGetAttr, "bbox", ""),
+           addNames = FALSE,
+           nodes = getNodeSet(doc, ".//textline"),
+           text = sapply(nodes, xmlValue))
 {
-  if(missing(bbox) && is.list(doc) && all(sapply(doc, inherits, "XMLInternalElementNode")))
-     bbox = lapply(doc, xmlGetAttr, "bbox")
+  if(missing(bbox) && (!missing(doc) && is.list(doc)) && all(sapply(doc, inherits, "XMLInternalElementNode"))) {
+     text = sapply(doc, xmlValue)
+     bbox = lapply(doc, xmlGetAttr, "bbox", "")
+  }
 
   if(length(bbox) == 0)
      return(NULL)
-      
-  m = do.call(rbind, strsplit(unlist(bbox), ","))
+
+
+  bbox = unlist(bbox)
+  bbox = bbox[bbox != ""]
+
+  if(length(bbox) == 0)
+      return(matrix(0, 0, 4, dimnames = list(NULL, c("left", "bottom", "right", "top"))))
+  
+  m = do.call(rbind, strsplit(bbox, ","))
+  
   mode(m) = "numeric"
   colnames(m) = c("left", "bottom", "right", "top")
+
+  if(addNames)
+     rownames(m) = text
+  
   m
 }
 
@@ -417,8 +468,11 @@ collapseTextLine =
     #
     # If the font changes across characters, we lose that information currently.
     # 
-function(node, sub = NULL)
+function(node, sub = NULL, byFont = TRUE)
 {
+    if(byFont)
+       return(collapseTextLineByFont(node, sub))
+    
     txt = xmlValue(node)
     if(!is.null(sub))
         txt = sub(txt)
@@ -430,6 +484,39 @@ function(node, sub = NULL)
     
     removeNodes(xmlChildren(node)[-1])
     node
+}
+
+collapseTextLineByFont =
+function(node, sub = NULL)
+{
+    tnodes = getNodeSet(node, ".//text")
+    ff = sapply(tnodes, xmlGetAttr, "font", "")
+    groups = rle(ff)
+    idx = rep(seq(length = length(groups$lengths)), groups$lengths)
+
+    removeNodes(tnodes)
+    
+#    chars = sapply(tnodes, xmlValue)
+#    phrases = tapply(chars, idx, paste, collapse = "")
+    mapply(mkTextNode, split(tnodes, idx), groups$values, MoreArgs = list(parent = node))
+}
+
+mkTextNode =
+    #XXX Add size attribute and the bbox
+function(charNodes, font, parent = NULL, ...)
+{
+  text = paste(sapply(charNodes, xmlValue), collapse = "")
+
+  charSizes = paste(sapply(charNodes, xmlGetAttr, "size", ""), collapse = ",")
+  ans = newXMLNode("text", text, attrs = c(font = font, characterSizes = charSizes), parent = parent)
+
+  bbox = getBBox(nodes = charNodes)
+  if(nrow(bbox)) {
+      bbox = paste(c(min(bbox[,1]), min(bbox[,2]), max(bbox[,3]), max(bbox[,4])), collapse = ",")
+      xmlAttrs(ans) = c(bbox = bbox)
+  }
+  
+  ans
 }
 
 
@@ -452,6 +539,8 @@ function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
           if(length(pages)) {
                  # Show all the pages separately
               r = ceiling(sqrt(length(pages)))
+              prev = par("mfrow", "mar")
+              on.exit(par(prev))
               par(mfrow = c(r, ceiling(length(pages)/r)), mar = c(0, 0, 0, 0))
               lapply(pages, function(p) showBoxes(getNodeSet(p, ".//*[not(ancestor::layout) and @bbox]"), axes = FALSE))
               return(NULL)
@@ -459,15 +548,37 @@ function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
       }
     }
 
+    bbox = upsideDown(bbox, margins)
 
     plot(0, xlim = margins[c("left", "right")], ylim = margins[c("bottom", "top")], type = "n", xlab = "", ylab = "", ...)
     rect(bbox[, 1], bbox[, 2], bbox[, 3], bbox[, 4])
 
     bb = xpathSApply(doc, "./line | ./rect", xmlGetAttr, "bbox")
-    r = matrix(as.numeric(unlist(strsplit(bb, ","))), , 4, byrow = TRUE)
-    rect(r[,1], r[,2], r[,3], r[,4], col = "lightgray", border = "green", lty = 2)
+    if(length(bb)) {
+        r = matrix(as.numeric(unlist(strsplit(bb, ","))), , 4, byrow = TRUE)
+        colnames(r) = c("left", "bottom", "right", "top")
+        r = upsideDown(r, margins)
+        rect(r[,1], r[,2], r[,3], r[,4], col = "lightgray", border = "green", lty = 2)
+    }
+    
+    cv = getCurves(doc)
+    if(length(cv)) 
+        lapply(cv, function(x) 
+                       lines(x[,1], x[,2], col = "blue")   )
+
+    invisible(TRUE)
 }
 
+
+upsideDown =
+function(bbox, margins)
+{
+    return(bbox)
+
+    bbox[, "bottom"] = margins["top"] - bbox[, "bottom"]
+    bbox[, "top"] = margins["top"] - bbox[, "top"]
+    bbox
+}
 
 
 
