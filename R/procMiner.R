@@ -18,10 +18,16 @@ pdfMinerDoc =
 function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText, removeZeroWidthLines = TRUE)
 {
    if(is.character(doc)) {
-       if(grepl("\\.pdf$", doc))
+
+       if(!file.exists(doc))
+          stop("file ", doc, " does not exist")
+       
+       fname = doc
+       if(grepl("\\.pdf$", doc)) 
           doc = convertPDF(doc)
        
        doc = xmlParse(doc)
+       docName(doc) = fname
    }
 
    xpathApply(doc, "//textline", collapseTextLine, sub)
@@ -58,23 +64,23 @@ function(doc, removePageNodes = FALSE, removeHeader = TRUE, sub = cleanText, rem
    structure(doc, class = c("PDFMinerDoc", class(doc)))
 }
 
-`[[.PDFMinerDoc` =
+`[[.ConvertedPDFDoc` =  #`[[.PDFMinerDoc` =
 function(x, i, j, ...)
 {
-    getPages(x)[[i]]
+   getPages(x)[[i]]
 }
 
-`[.PDFMinerDoc` =
+`[.ConvertedPDFDoc` =   # `[.PDFMinerDoc` =
 function(x, i, j, ...)
 {
     getPages(x)[i, ...]
 }
 
-lapply.PDFMinerDoc =
+lapply.ConvertedPDFDoc =  # PDFMinerDoc =
 function(X, FUN, ...)
   lapply(getPages(X), FUN, ...)
 
-sapply.PDFMinerDoc =
+sapply.ConvertedPDFDoc = # PDFMinerDoc =
 function(X, FUN, ...)
   sapply(getPages(X), FUN, ...)
 
@@ -82,8 +88,14 @@ function(X, FUN, ...)
 getPages = 
 function(doc)
 {
-  getNodeSet(doc, "//page")
+  p = getNodeSet(doc, "//page")
+    # Change the class of the page nodes so that we know they are PDF page nodes.
+  lapply(p, function(x, newClass) {
+                   class(x) = c(newClass, class(x))
+                   x
+                }, gsub("Doc$", "Page", grep("PDF", class(doc), value = TRUE)))
 }
+
 
 
 removePages =
@@ -157,7 +169,7 @@ convertPDF =
     #
 function(filename, pdfminer = getOption("PDF2TXT", "pdf2txt.py"))
 {
-    cmd = sprintf("%s -t xml %s", pdfminer, filename)
+    cmd = sprintf("%s -t xml '%s'", pdfminer, filename)
     system(cmd, intern = TRUE)
 }
 
@@ -528,7 +540,10 @@ plot.PDFMinerDoc = showBoxes =
     # showBoxes(getNodeSet(pamir, "/*/page[2]//*[not(ancestor::layout)]"))
     # par(mfrow = c(5, 5), mar = c(0, 0, 0, 0))
     # invisible(lapply(1:25, function(i) showBoxes(getNodeSet(pamir, sprintf("/*/page[%d]//*[not(ancestor::layout)]", i)), axes = FALSE)))
-function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
+
+    #!!! We could compute a more sensible value for str.cex knowing the usr coordinates for the plot, or directly from the dimensions of the PDF page.
+     
+function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), showText = TRUE, str.cex = .3, ...)
 {
     if(!missing(doc)) {
       if(is.character(doc)) 
@@ -553,20 +568,39 @@ function(doc, bbox = getIndentations(doc), margins = getMargins(, bbox), ...)
     plot(0, xlim = margins[c("left", "right")], ylim = margins[c("bottom", "top")], type = "n", xlab = "", ylab = "", ...)
     rect(bbox[, 1], bbox[, 2], bbox[, 3], bbox[, 4])
 
-    bb = xpathSApply(doc, "./line | ./rect", xmlGetAttr, "bbox")
-    if(length(bb)) {
-        r = matrix(as.numeric(unlist(strsplit(bb, ","))), , 4, byrow = TRUE)
-        colnames(r) = c("left", "bottom", "right", "top")
-        r = upsideDown(r, margins)
-        rect(r[,1], r[,2], r[,3], r[,4], col = "lightgray", border = "green", lty = 2)
+
+    if(showText) 
+       text((bbox[, "left"] + bbox[, "right"])/2, (bbox[, "bottom"] + bbox[, "top"])/2,  rownames(bbox), cex = str.cex)
+    
+
+    if(!missing(doc)) {
+       if(xmlName(doc) == "page")
+           title(sprintf("%s page %s", docName(doc), xmlGetAttr(doc, "id", xmlGetAttr(doc, "number", "?"))))
+
+       r = getLines(doc)
+       if(nrow(r)) 
+           rect(r[,1], r[,2], r[,3], r[,4], col = "lightgray", border = "green", lty = 1)
+    
+       cv = getCurves(doc)
+       if(length(cv)) 
+          lapply(cv, function(x) 
+                         lines(x[,1], x[,2], col = "blue")   )
     }
     
-    cv = getCurves(doc)
-    if(length(cv)) 
-        lapply(cv, function(x) 
-                       lines(x[,1], x[,2], col = "blue")   )
-
     invisible(TRUE)
+}
+
+getLines =
+function(doc, ...)
+    UseMethod("getLines")
+
+getLines.ConvertedPDFPage =
+function(doc, ...)
+{
+    bb = xpathSApply(doc, "./line | ./rect", xmlGetAttr, "bbox")
+    r = matrix(as.numeric(unlist(strsplit(bb, ","))), , 4, byrow = TRUE)
+    colnames(r) = c("left", "bottom", "right", "top")
+    r = upsideDown(r, margins)    
 }
 
 
@@ -737,5 +771,6 @@ function(x)
     x == toupper(x)
 }
 
-
-
+setOldClass(c("PDFMinerDoc", "ConvertedPDFDoc", "XMLInternalDocument", "XMLAbstractDocument"))
+setOldClass(c("PDFMinerPage", "ConvertedPDFPage", "XMLInternalDocument", "XMLAbstractDocument"))
+setOldClass(c("ConvertedPDFPage", "XMLInternalElement", "XMLInternalNode", "XMLAbstractNode"))
