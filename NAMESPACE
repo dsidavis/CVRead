@@ -1,7 +1,11 @@
 exportPattern(".*")
 
-S3method("[[", "PDFMinerDoc")
-S3method("[", "PDFMinerDoc")
+#S3method("[[", "PDFMinerDoc")
+S3method("[[", "ConvertedPDFDoc")
+S3method("[",  "ConvertedPDFDoc")
 
-S3method("sapply", "PDFMinerDoc")
-S3method("lapply", "PDFMinerDoc")
+#S3method("sapply", "PDFMinerDoc")
+#S3method("lapply", "PDFMinerDoc")
+
+S3method("sapply", "ConvertedPDFDoc")
+S3method("lapply", "ConvertedPDFDoc")

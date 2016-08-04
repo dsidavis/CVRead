@@ -3,7 +3,8 @@
 import sys
 import os
 #sys.path.append(os.path.abspath("/Users/duncan/DSIProjects/KimShauman/PythonTools/pdfminer/pdfminer"))
-sys.path.insert(0, "/Users/duncan/DSIProjects/KimShauman/PythonTools/pdfminer")
+#sys.path.insert(0, "/Users/duncan/DSIProjects/KimShauman/PythonTools/pdfminer")
+sys.path.insert(0, "/Users/duncan/DSIProjects/pdfminer")
 #from pprint import pprint
 #pprint(sys.path)
 

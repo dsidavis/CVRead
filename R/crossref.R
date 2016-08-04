@@ -1,5 +1,5 @@
 library(RCurl)
-#library(RJSONIO)
+library(RJSONIO)
 #library(rcrossref)
 
 crossRef =

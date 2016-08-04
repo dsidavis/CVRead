@@ -12,6 +12,7 @@
 # Right aligned numbers
 #
 #
+# Within a page, how to find a table.
 # We can look for the word Table that introduces a table via a numbering system.
 #
 #
