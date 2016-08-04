@@ -1,0 +1,12 @@
+Characters in the XML pdfminer generates
+ SampleTables/v69i06.pdf  has   rather than '
+  This ' is in the verbatim output from R. 
+
+ Does pdf2txt.py have a command line argument for this (-c ??)
+
+Add alpha levels to colors.
+
+Colors for lines, curves, etc.
+
+/sRGB calling do_SCN() and not seeting the colors.
+  Is it removing arguments from the call?

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages>
+<page id="1" bbox="0.000,0.000,504.000,504.000" rotate="0">
+<textbox id="0" bbox="1.572,267.544,15.444,270.208">
+<textline bbox="1.572,267.544,15.444,270.208">
+<text font="Helvetica" bbox="1.572,267.544,15.444,270.208" size="2.664" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">i</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="1" bbox="1.572,242.200,15.444,276.208">
+<textline bbox="1.572,270.208,15.444,276.208">
+<text font="Helvetica" bbox="1.572,270.208,15.444,276.208" size="6.000" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">s</text>
+<text>
+</text>
+</textline>
+<textline bbox="1.572,261.544,15.444,267.544">
+<text font="Helvetica" bbox="1.572,261.544,15.444,267.544" size="6.000" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">x</text>
+<text>
+</text>
+</textline>
+<textline bbox="1.572,253.540,15.444,261.544">
+<text font="Helvetica" bbox="1.572,253.540,15.444,261.544" size="8.004" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">A</text>
+<text>
+</text>
+</textline>
+<textline bbox="1.572,242.200,15.444,250.204">
+<text font="Helvetica" bbox="1.572,242.200,15.444,250.204" size="8.004" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">Y</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="2" bbox="1.572,250.204,15.444,253.540">
+<textline bbox="1.572,250.204,15.444,253.540">
+<text font="Helvetica" bbox="1.572,250.204,15.444,253.540" size="3.336" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"> </text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="3" bbox="30.372,421.190,44.244,441.206">
+<textline bbox="30.372,434.534,44.244,441.206">
+<text font="Helvetica" bbox="30.372,434.534,44.244,441.206" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,427.862,44.244,434.534">
+<text font="Helvetica" bbox="30.372,427.862,44.244,434.534" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,421.190,44.244,427.862">
+<text font="Helvetica" bbox="30.372,421.190,44.244,427.862" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="4" bbox="30.372,344.750,44.244,364.766">
+<textline bbox="30.372,358.094,44.244,364.766">
+<text font="Helvetica" bbox="30.372,358.094,44.244,364.766" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">8</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,351.422,44.244,358.094">
+<text font="Helvetica" bbox="30.372,351.422,44.244,358.094" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,344.750,44.244,351.422">
+<text font="Helvetica" bbox="30.372,344.750,44.244,351.422" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="5" bbox="30.372,268.300,44.244,288.316">
+<textline bbox="30.372,281.644,44.244,288.316">
+<text font="Helvetica" bbox="30.372,281.644,44.244,288.316" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">6</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,274.972,44.244,281.644">
+<text font="Helvetica" bbox="30.372,274.972,44.244,281.644" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,268.300,44.244,274.972">
+<text font="Helvetica" bbox="30.372,268.300,44.244,274.972" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="6" bbox="30.372,191.860,44.244,211.876">
+<textline bbox="30.372,205.204,44.244,211.876">
+<text font="Helvetica" bbox="30.372,205.204,44.244,211.876" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">4</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,198.532,44.244,205.204">
+<text font="Helvetica" bbox="30.372,198.532,44.244,205.204" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,191.860,44.244,198.532">
+<text font="Helvetica" bbox="30.372,191.860,44.244,198.532" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="7" bbox="30.372,115.410,44.244,135.426">
+<textline bbox="30.372,128.754,44.244,135.426">
+<text font="Helvetica" bbox="30.372,128.754,44.244,135.426" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">2</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,122.082,44.244,128.754">
+<text font="Helvetica" bbox="30.372,122.082,44.244,128.754" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+<textline bbox="30.372,115.410,44.244,122.082">
+<text font="Helvetica" bbox="30.372,115.410,44.244,122.082" size="6.672" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="8" bbox="156.770,161.050,162.455,168.253">
+<textline bbox="156.770,161.050,162.455,168.253">
+<text font="ZapfDingbats" bbox="156.770,161.050,162.455,168.253" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="9" bbox="199.440,199.270,205.125,206.473">
+<textline bbox="199.440,199.270,205.125,206.473">
+<text font="ZapfDingbats" bbox="199.440,199.270,205.125,206.473" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="10" bbox="199.060,45.036,205.732,58.908">
+<textline bbox="199.060,45.036,205.732,58.908">
+<text font="Helvetica" bbox="199.060,45.036,205.732,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">4</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="11" bbox="71.440,84.600,77.125,91.803">
+<textline bbox="71.440,84.600,77.125,91.803">
+<text font="ZapfDingbats" bbox="71.440,84.600,77.125,91.803" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="12" bbox="114.100,122.830,119.785,130.033">
+<textline bbox="114.100,122.830,119.785,130.033">
+<text font="ZapfDingbats" bbox="114.100,122.830,119.785,130.033" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="13" bbox="113.730,45.036,120.402,58.908">
+<textline bbox="113.730,45.036,120.402,58.908">
+<text font="Helvetica" bbox="113.730,45.036,120.402,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">2</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="14" bbox="455.440,428.600,461.125,435.803">
+<textline bbox="455.440,428.600,461.125,435.803">
+<text font="ZapfDingbats" bbox="455.440,428.600,461.125,435.803" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="15" bbox="412.770,390.380,418.455,397.583">
+<textline bbox="412.770,390.380,418.455,397.583">
+<text font="ZapfDingbats" bbox="412.770,390.380,418.455,397.583" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="16" bbox="370.100,352.160,375.785,359.363">
+<textline bbox="370.100,352.160,375.785,359.363">
+<text font="ZapfDingbats" bbox="370.100,352.160,375.785,359.363" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="17" bbox="327.440,313.940,333.125,321.143">
+<textline bbox="327.440,313.940,333.125,321.143">
+<text font="ZapfDingbats" bbox="327.440,313.940,333.125,321.143" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="18" bbox="252.010,466.552,280.794,483.212">
+<textline bbox="252.010,466.552,280.794,483.212">
+<text font="Helvetica-Bold" bbox="252.010,466.552,260.564,483.212" size="16.660" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">T</text>
+<text font="Helvetica-Bold" bbox="260.564,466.552,264.456,483.212" size="16.660" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">i</text>
+<text font="Helvetica-Bold" bbox="264.456,466.552,269.118,483.212" size="16.660" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">t</text>
+<text font="Helvetica-Bold" bbox="269.118,466.552,273.010,483.212" size="16.660" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text font="Helvetica-Bold" bbox="273.010,466.552,280.794,483.212" size="16.660" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">e</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="19" bbox="284.770,275.720,290.455,282.923">
+<textline bbox="284.770,275.720,290.455,282.923">
+<text font="ZapfDingbats" bbox="284.770,275.720,290.455,282.923" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="20" bbox="242.100,237.490,247.785,244.693">
+<textline bbox="242.100,237.490,247.785,244.693">
+<text font="ZapfDingbats" bbox="242.100,237.490,247.785,244.693" size="7.203" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">l</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="21" bbox="284.400,45.036,291.072,58.908">
+<textline bbox="284.400,45.036,291.072,58.908">
+<text font="Helvetica" bbox="284.400,45.036,291.072,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">6</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="22" bbox="369.730,45.036,376.402,58.908">
+<textline bbox="369.730,45.036,376.402,58.908">
+<text font="Helvetica" bbox="369.730,45.036,376.402,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">8</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="23" bbox="451.730,45.036,465.074,58.908">
+<textline bbox="451.730,45.036,465.074,58.908">
+<text font="Helvetica" bbox="451.730,45.036,458.402,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">1</text>
+<text font="Helvetica" bbox="458.402,45.036,465.074,58.908" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">0</text>
+<text>
+</text>
+</textline>
+</textbox>
+<textbox id="24" bbox="250.060,16.236,282.736,30.108">
+<textline bbox="250.060,16.236,282.736,30.108">
+<text font="Helvetica" bbox="250.060,16.236,258.064,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">X</text>
+<text font="Helvetica" bbox="258.064,16.236,261.400,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"> </text>
+<text font="Helvetica" bbox="261.400,16.236,268.072,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">a</text>
+<text font="Helvetica" bbox="268.072,16.236,274.072,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">x</text>
+<text font="Helvetica" bbox="274.072,16.236,276.736,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">i</text>
+<text font="Helvetica" bbox="276.736,16.236,282.736,30.108" size="13.872" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000">s</text>
+<text>
+</text>
+</textline>
+</textbox>
+<line linewidth="0" bbox="117.070,73.440,458.400,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="117.070,66.240,117.070,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="202.400,66.240,202.400,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="287.730,66.240,287.730,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="373.070,66.240,373.070,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="458.400,66.240,458.400,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="59.040,125.420,59.040,431.200" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="51.840,125.420,59.040,125.420" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="51.840,201.870,59.040,201.870" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="51.840,278.310,59.040,278.310" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="51.840,354.760,59.040,354.760" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="51.840,431.200,59.040,431.200" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<curve linewidth="0" bbox="59.040,73.440,473.760,444.960" pts="59.040,73.440,473.760,73.440,473.760,444.960,59.040,444.960,59.040,73.440" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="59.040,240.090,473.760,240.090" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<curve linewidth="0" bbox="59.040,111.660,473.760,483.180" pts="59.040,111.660,473.760,483.180" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<line linewidth="0" bbox="245.070,73.440,245.070,444.960" colorType="RGB" red="0.000000" green="0.000000" blue="0.000000"/>
+<layout>
+<textgroup bbox="1.572,16.236,465.074,483.212">
+<textgroup bbox="1.572,242.200,15.444,276.208">
+<textbox id="0" bbox="1.572,267.544,15.444,270.208" />
+<textgroup bbox="1.572,242.200,15.444,276.208">
+<textbox id="1" bbox="1.572,242.200,15.444,276.208" />
+<textbox id="2" bbox="1.572,250.204,15.444,253.540" />
+</textgroup>
+</textgroup>
+<textgroup bbox="30.372,16.236,465.074,483.212">
+<textgroup bbox="30.372,45.036,205.732,441.206">
+<textgroup bbox="30.372,115.410,44.244,441.206">
+<textgroup bbox="30.372,191.860,44.244,441.206">
+<textgroup bbox="30.372,344.750,44.244,441.206">
+<textbox id="3" bbox="30.372,421.190,44.244,441.206" />
+<textbox id="4" bbox="30.372,344.750,44.244,364.766" />
+</textgroup>
+<textgroup bbox="30.372,191.860,44.244,288.316">
+<textbox id="5" bbox="30.372,268.300,44.244,288.316" />
+<textbox id="6" bbox="30.372,191.860,44.244,211.876" />
+</textgroup>
+</textgroup>
+<textbox id="7" bbox="30.372,115.410,44.244,135.426" />
+</textgroup>
+<textgroup bbox="71.440,45.036,205.732,206.473">
+<textgroup bbox="156.770,45.036,205.732,206.473">
+<textbox id="8" bbox="156.770,161.050,162.455,168.253" />
+<textgroup bbox="199.060,45.036,205.732,206.473">
+<textbox id="9" bbox="199.440,199.270,205.125,206.473" />
+<textbox id="10" bbox="199.060,45.036,205.732,58.908" />
+</textgroup>
+</textgroup>
+<textgroup bbox="71.440,45.036,120.402,130.033">
+<textbox id="11" bbox="71.440,84.600,77.125,91.803" />
+<textgroup bbox="113.730,45.036,120.402,130.033">
+<textbox id="12" bbox="114.100,122.830,119.785,130.033" />
+<textbox id="13" bbox="113.730,45.036,120.402,58.908" />
+</textgroup>
+</textgroup>
+</textgroup>
+</textgroup>
+<textgroup bbox="242.100,16.236,465.074,483.212">
+<textgroup bbox="242.100,237.490,461.125,483.212">
+<textgroup bbox="327.440,313.940,461.125,435.803">
+<textgroup bbox="412.770,390.380,461.125,435.803">
+<textbox id="14" bbox="455.440,428.600,461.125,435.803" />
+<textbox id="15" bbox="412.770,390.380,418.455,397.583" />
+</textgroup>
+<textgroup bbox="327.440,313.940,375.785,359.363">
+<textbox id="16" bbox="370.100,352.160,375.785,359.363" />
+<textbox id="17" bbox="327.440,313.940,333.125,321.143" />
+</textgroup>
+</textgroup>
+<textgroup bbox="242.100,237.490,290.455,483.212">
+<textbox id="18" bbox="252.010,466.552,280.794,483.212" />
+<textgroup bbox="242.100,237.490,290.455,282.923">
+<textbox id="19" bbox="284.770,275.720,290.455,282.923" />
+<textbox id="20" bbox="242.100,237.490,247.785,244.693" />
+</textgroup>
+</textgroup>
+</textgroup>
+<textgroup bbox="250.060,16.236,465.074,58.908">
+<textgroup bbox="284.400,45.036,465.074,58.908">
+<textbox id="21" bbox="284.400,45.036,291.072,58.908" />
+<textgroup bbox="369.730,45.036,465.074,58.908">
+<textbox id="22" bbox="369.730,45.036,376.402,58.908" />
+<textbox id="23" bbox="451.730,45.036,465.074,58.908" />
+</textgroup>
+</textgroup>
+<textbox id="24" bbox="250.060,16.236,282.736,30.108" />
+</textgroup>
+</textgroup>
+</textgroup>
+</textgroup>
+</layout>
+</page>
+</pages>

@@ -1,0 +1,13 @@
+
+Enter a frame number, or 0 to exit   
+
+1: function (x, ...) 
+UseMethod("print")(x)
+2: print.XMLInternalDocument(x)
+3: cat(as(x, "character"), "\n")
+4: as(x, "character")
+5: asMethod(object)
+6: as.character(from)
+7: as.character.default(from)
+
+[1] "PDFMinerDoc"         "XMLInternalDocument" "XMLAbstractDocument"

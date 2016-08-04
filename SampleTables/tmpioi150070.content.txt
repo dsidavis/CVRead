@@ -1,0 +1,1023 @@
+Copyright 2015 American Medical Association. All rights reserved.
+Overdiagnosis ofClostridium difficileInfection
+in the Molecular Test Era
+Christopher R. Polage, MD, MAS; Clare E. Gyorke, BS; Michael A. Kennedy, BS; Jhansi L. Leslie, BS;
+David L. Chin, PhD; Susan Wang, BS; Hien H. Nguyen, MD, MAS; Bin Huang, MD, PhD; Yi-Wei Tang, MD, PhD;
+Lenora W. Lee, MD; Kyoungmi Kim, PhD; Sandra Taylor, PhD; Patrick S. Romano, MD, MPH;
+Edward A. Panacek, MD, MPH; Parker B. Goodell, BS, MPH; Jay V. Solnick, MD, PhD; Stuart H. Cohen, MD
+IMPORTANCEClostridium difficileis a major cause of health care–associated infection, but
+disagreement between diagnostic tests is an ongoing barrier to clinical decision making and
+public health reporting. Molecular tests are increasingly used to diagnoseC difficileinfection
+(CDI), but many molecular test-positive patients lack toxins that historically defined disease,
+making it unclear if they need treatment.
+OBJECTIVETo determine the natural history and need for treatment of patients who are toxin
+immunoassay negative and polymerase chain reaction (PCR) positive (Tox−/PCR+) for CDI.
+DESIGN, SETTING, AND PARTICIPANTSProspective observational cohort study at a single
+academic medical center among 1416 hospitalized adults tested forC difficiletoxins 72 hours
+or longer after admission between December 1, 2010, and October 20, 2012. The analysis was
+conducted in stages with revisions from April 27, 2013, to January 13, 2015.
+MAIN OUTCOMES AND MEASURESPatients undergoingC difficiletesting were grouped by US
+Food and Drug Administration–approved toxin and PCR tests as Tox+/PCR+, Tox−/PCR+, or
+Tox−/PCR−. Toxin results were reported clinically. Polymerase chain reaction results were not
+reported. The main study outcomes were duration of diarrhea during up to 14 days of
+treatment, rate of CDI-related complications (ie, colectomy, megacolon, or intensive care unit
+care) and CDI-related death within 30 days.
+RESULTSTwenty-one percent (293 of 1416) of hospitalized adults tested forC difficilewere
+positive by PCR, but 44.7% (131 of 293) had toxins detected by the clinical toxin test. At
+baseline, Tox−/PCR+ patients had lowerC difficilebacterial load and less antibiotic exposure,
+fecal inflammation, and diarrhea than Tox+/PCR+ patients (P< .001 for all). The median
+duration of diarrhea was shorter in Tox−/PCR+ patients (2 days; interquartile range, 1-4 days)
+than in Tox+/PCR+ patients (3 days; interquartile range, 1-6 days) (P= .003) and was similar
+to that in Tox−/PCR− patients (2 days; interquartile range, 1-3 days), despite minimal empirical
+treatment of Tox−/PCR+ patients. No CDI-related complications occurred in Tox−/PCR+
+patients vs 10 complications in Tox+/PCR+ patients (0% vs 7.6%,P< .001). One Tox−/PCR+
+patient had recurrent CDI as a contributing factor to death within 30 days vs 11 CDI-related
+deaths in Tox+/PCR+ patients (0.6% vs 8.4%,P= .001).
+CONCLUSIONS AND RELEVANCEAmong hospitalized adults with suspected CDI, virtually all
+CDI-related complications and deaths occurred in patients with positive toxin immunoassay
+test results. Patients with a positive molecular test result and a negative toxin immunoassay
+test result had outcomes that were comparable to patients withoutC difficileby either
+method. Exclusive reliance on molecular tests for CDI diagnosis without tests for toxins or
+host response is likely to result in overdiagnosis, overtreatment, and increased health care
+costs.
+JAMA Intern Med. 2015;175(11):1792-1801. doi:10.1001/jamainternmed.2015.4114Published online September 8, 2015.
+Invited Commentary
+page 1801
+Supplemental contentat
+jamainternalmedicine.com
+CME Quizat
+jamanetworkcme.comand
+CME Questionspage 1880
+Author Affiliations:Authoraffiliations are listed at the end of this
+article.
+Corresponding Author:ChristopherR. Polage, MD, MAS, Department of
+Pathology and Laboratory Medicine,University of California Davis School
+of Medicine, Specialty Testing CenterBldg, 3740 Business Dr, Sacramento,
+CA 95820 (christopher.polage@ucdmc.ucdavis.edu).
+Research
+Original Investigation
+1792(Reprinted)jamainternalmedicine.com
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (0) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+C
+lostridium difficileis one of the most common causes
+of health care–associated infection in US hospitals,
+affecting almost 1% of hospitalized patients each
+year.1-3Since 2000, the incidence ofC difficileinfection
+(CDI) has increased more than 200% while the rates of other
+health care–associated infections have decreased.1,2,4-6
+More than 300 000 hospitalizations involve a CDI each
+year, at an annual cost of $1.0 to $4.9 billion to the US health
+care system.2,7
+Initial increases in the rate of CDI were attributed to the
+emergence of a novel, hypervirulent strain during a period
+when at least 95% of hospitals used toxin immunoassays for
+diagnosis (2000-2008).3,5,8-10More recent increases have
+been linked to greaterC difficiledetection after the intro-
+duction of molecular tests, which are more sensitive and
+detect microbial DNA instead of toxin.10-15Individual hospi-
+tals have reported a 50% to 100% increase in the rate of CDI
+after switching from toxin tests to molecular tests.11,12,14
+Similar increases have been observed in the rate of publicly
+reported CDI as reporting facilities adopted molecular
+tests.15
+For decades, toxin tests were favored over culture for
+diagnosis of CDI because toxins mediate disease and toxin
+detection was faster and provided evidence of toxin produc-
+tion in vivo that typically correlated better with clinical
+disease.3,10,16-18Molecular tests such as polymerase chain
+reaction (PCR) target toxin genes but are similar to culture
+in detectingC difficilebacteria regardless of toxin produc-
+tion, making it unclear whether positive PCR results reflect
+clinical disease.3,10,19-21The uncertain clinical significance
+of positive PCR results is problematic in inpatient health
+care facilities, whereC difficilecolonization is 5 to 10 times
+more common than CDI and noninfectious causes of
+diarrhea are also common.22-26Nonetheless, concern that
+patients with CDI were being missed by toxin tests
+prompted many laboratories to switch to molecular tests
+in 2009, when they became available.10,19,27As of the
+first quarter of 2014, a total of 44% of acute care hospitals
+participating in the National Healthcare Safety Network
+(NHSN) reported using molecular tests alone or in combina-
+tion with other tests for diagnosis of CDI (NHSN, written
+communication, September 15, 2014). Therefore, there is
+an urgent need to determine whether patients with negative
+toxin test results and positive molecular test results have
+CDI or are simply colonized with another cause of
+symptoms.
+To address this need, we prospectively tested hospital-
+ized adults with suspected CDI at the University of Califor-
+nia Davis Medical Center with molecular tests while main-
+taining our existing toxin test for clinical diagnosis. We then
+collected clinical outcome and treatment data to enable us
+to ask 3 related questions. First, what is the natural history
+of PCR-positive patients with negative toxin immunoassay
+results? Second, how do outcomes in these patients com-
+pare with outcomes in patients with positive toxin and PCR
+results or completely negativeC difficiletest results? Third,
+do PCR-positive patients with negative toxin results require
+treatment for CDI?
+Methods
+Study Design and Population
+Hospitalized adults with a diarrheal stool sample submitted
+forC difficiletesting 72 hours or longer after admission to the
+UniversityofCaliforniaDavisMedicalCenterbetweenDecem-
+ber 1, 2010, and October 20, 2012, were included in the study.
+Only the first sample was analyzed for each patient. Samples
+received after discharge were excluded. Patients withC diffi-
+ciledetected by culture and no other test were excluded from
+the study. The study protocol was approved by the University
+ofCaliforniaDavisInstitutionalReviewBoard.Informedcon-
+sent was waived for the initial screening and symptom veri-
+fication and overall outcome and safety analysis. A subset of
+patients had written informed consent obtained for addi-
+tional in-person follow-up.
+Laboratory Testing
+All stool samples had a US Food and Drug Administration
+(FDA)–approvedC difficiletoxin immunoassay (C difficile
+Premier toxins A and B; Meridian Biosciences) performed
+and reported clinically. Formed stools were rejected. Eligible
+samples also had 1 or more FDA-approved molecularCdiffi-
+ciletests (XpertC. difficile/Epi; Cepheid; and illumigeneC.
+difficile; Meridian Biosciences) performed but not reported,
+allowing patients to be grouped byC difficiletoxin immuno-
+assay and PCR results as toxin immunoassay positive and
+PCR positive (Tox+/PCR+), Tox−/PCR+, or Tox−/PCR−. Addi-
+tional tests were performed to characterize the nature of the
+C difficilecolonization and host inflammatory response. The
+PCR-positive samples had toxin quantitated (xCELLigence
+System for Real-Time Cellular Analysis, version 2; ACEA
+Biosciences) and the concentration ofC difficileDNA deter-
+mined as a measure of bacterial load (XpertC. difficile/Epi;
+Cepheid).28-30The Tox−/PCR+ samples were tested by a cell
+cytotoxin assay (C. difficileTox-B; TechLab), the more sensi-
+tive historical standard forC difficiletoxin detection and
+diagnosis, to determine the number of samples that would
+have been positive if this test had been used instead of the
+toxin immunoassay. Culture was performed to recoverC dif-
+ficileisolates for ribotyping and verification of capacity to
+produce toxins. Lactoferrin was measured in PCR+ samples
+and random PCR− samples as a marker of inflammation
+(Leuko EZ Vue; TechLab; and IBD-Scan; TechLab). Lactofer-
+rin results were classified as high if they exceeded the 95th
+percentile of results in PCR− patients. See the eMethods in
+theSupplementfor additional details.
+Clinical Data Collection
+Diarrheal symptoms were verified at the time ofC difficile
+testing. Patients were considered to have diarrhea if they had
+at least 3 unformed bowel movements or at least 600 mL of
+rectal or colostomy output recorded in the electronic health
+record (EHR) within 24 hours on the day of or before sample
+collection. Patients not meeting the threshold for diarrhea in
+the EHR had their nurse called to verify diarrheal status.
+Other data were obtained from laboratory, EHR, and adminis-
+Overdiagnosis ofClostridium difficileInfectionOriginal InvestigationResearch
+jamainternalmedicine.com(Reprinted)JAMA Internal MedicineNovember 2015   Volume 175, Number 111793
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (1) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+trative databases. See the eMethods in theSupplementfor
+additional details.
+Outcomes and Clinical Case Attribution
+The primary outcome was duration of diarrhea for the 15-day
+period encompassing the day of sample collection (day 1) and
+upto14daysoftreatment.Secondaryoutcomesincludedrate
+ofCDI-relatedcomplications(ie,megacolon,colectomyforful-
+minantcolitis,andintensivecareunit[ICU]carerelatedtoCDI)
+and CDI-related deaths within 30 days. The CDI-related com-
+plications and deaths were analyzed separately to distin-
+guishpatientswithcomplicatedCDIdiseaseofthecolonfrom
+patientswithCDIasacontributingcauseofdeathbutnotnec-
+essarily complicated CDI of the colon. RepeatC difficiletests
+and treatment were analyzed within 14 days of day 1 as an in-
+dication of ongoing clinical suspicion or empirical treatment
+forCDIinTox−/PCR+patientsandtodeterminehowmanybe-
+camepositivewithrepeattesting.Clostridiumdifficiletestsand
+treatment 15 to 30 days after day 1 were analyzed as a proxy
+forrecurrentorprolongedCDIoccurringaftertheinitialtreat-
+ment period. Ten or more days of metronidazole or oral van-
+comycin therapy was considered full treatment. Duration of
+diarrheawasdeterminedfromnurse-recordedstoolcountsand
+rectal or colostomy outputs in the EHR, excluding formed
+stools. Each day was categorized as a diarrhea day if at least 3
+unformed stools or at least 600 mL of fecal output was re-
+corded. Days with less stool output were categorized as a no-
+diarrhea day. Duration of diarrhea was the sum of days from
+day 1 to the last day with diarrhea, followed by 2 or more days
+without diarrhea. Cases of CDI-related megacolon and colec-
+tomies were identified by searching for patients with a proce-
+dureorbillingcodeforabdominalradiology,colonoscopy,col-
+ectomy, or diagnosis of megacolon or pseudomembranous
+colitiswithin30days(eTable1intheSupplement).Clinicaland
+surgical notes and radiology, endoscopy, and pathology re-
+ports were reviewed to confirm or exclude CDI-related mega-
+colon or colectomy. Partially treated complications diag-
+nosed before day 1 were excluded. Intensive care unit care
+related to CDI was determined as follows. First, patients lo-
+catedinortransferredintotheICUonday1(±1day)wereiden-
+tified.TheICUcarewasthendeterminedtobeCDIrelated(ie,
+attributabletoorcontributedtobyCDI)orunrelatedbyblinded
+EHR review by 2 board-certified infectious diseases physi-
+cians (H.H.N., L.W.L., J.V.S., or S.H.C.). The physician adjudi-
+cators were blinded to PCR results but otherwise were pro-
+vided with all relevant clinical, procedural, diagnostic, and
+outcomeinformationavailableintheEHR.Disagreementswere
+resolved by a third infectious diseases physician (H.H.N.,
+L.W.L., J.V.S., or S.H.C.). Deaths were identified by discharge
+dispositioncodesandEHRreviewofPCR-positivepatientswith
+unknown mortality status at 30 days. Attribution of deaths as
+CDI related or unrelated was determined by blinded infec-
+tious diseases physician EHR review (L.W.L., J.V.S., or S.H.C.)
+in the same manner as for ICU care.
+Statistical Analysis
+Baselinedataweresummarizedandtestedfordifferences.The
+Kruskal-Wallis test was used for continuous variables except
+forage,whichwascomparedwithananalysisofvariance.For
+categorical variables, including outcomes, a χ2test or Fisher
+exacttestwasused.Kaplan-Meierestimateswereusedtoshow
+time to resolution of diarrhea for each group, with censoring
+of patients who were discharged or died during the follow-
+up, and compared with the log-rank test. A Cox proportional
+hazards model was used to estimate the effect of Tox+/PCR+
+or Tox−/PCR+ status compared with Tox−/PCR− status on the
+durationofdiarrhea,adjustingforage,comorbidities,ICUsta-
+tus on day 1 (±1 day), prior antibiotic days, prior metronida-
+zoleororalvancomycinexposure,maximumwhitebloodcell
+count on day 1 (±1 day),C difficileribotype, and fecal lactofer-
+rin level. See the eMethods in theSupplementfor additional
+details.
+Results
+Patient Cohort and Baseline Characteristics
+An overview of the study design, patient cohort, and fol-
+low-up is shown inFigure 1. In total, 1416 hospitalized adults
+were analyzed, including 131 Tox+/PCR+ patients (9.3%), 162
+Tox−/PCR+ patients (11.4%), and 1123 Tox−/PCR− patients
+(79.3%).
+Thegroupsweresimilarinage,sex,numberofcomorbidi-
+ties,nonantibioticmedicationexposures,andproportionswith
+leukopenia, renal insufficiency, and hypoalbuminemia ex-
+ceptforfewercomorbiditiesinTox−/PCR−patients(Table1and
+eTable 2 in theSupplement). However, the Tox+/PCR+ group
+had more prior antibiotic exposure, more patients with leu-
+kocytosis,andmorediarrheaonday1.Infeces,Tox+/PCR+pa-
+tients had an increasedC difficilebacterial load, higher toxin
+concentration, and greater frequency of hypervirulentC dif-
+ficilestrainthanTox−/PCR+patients.Correspondingly,Tox+/
+PCR+ patients had significantly more fecal lactoferrin than
+Tox−/PCR+patients,and36.8%(43of117)hadalactoferrinlevel
+greaterthanthe95thpercentileofTox−/PCR−patients.Incon-
+trast, few Tox−/PCR+ patients (13.4% [19 of 142]) had a lacto-
+ferrin level above the 95th percentile of Tox−/PCR− patients,
+and 79.0% (15 of 19) of these patients had an alternative ex-
+planationforfecalinflammation,apreviousdiagnosisofCDI,
+or anti–C difficiletreatment before testing (eTable 3 in the
+Supplement).
+Duration of Diarrhea
+TheTox+/PCR+patientshadalongerdurationofdiarrheathan
+Tox−/PCR+patientsandTox−/PCR−patients(P< .001)andhad
+a greater risk of diarrhea during the follow-up (Figure 2and
+Table 2). In contrast, Tox−/PCR+ patients and Tox−/PCR− pa-
+tients had a similar risk of diarrhea on most days.
+In the multivariable model, Tox+/PCR+ status had the
+strongest effect on duration of diarrhea, decreasing the prob-
+ability of diarrhea being resolved by 37% each day relative to
+the Tox−/PCR− reference group (hazard ratio, 0.63; 95% CI,
+0.48-0.83). Age, white blood cell count, and lactoferrin level
+werealsosignificantpredictorsofdurationofdiarrhea,buttheir
+relative contribution was small (≤2% each) (eTable 4 in the
+Supplement). The Tox−/PCR+ status and pretest exposure to
+ResearchOriginal InvestigationOverdiagnosis ofClostridium difficileInfection
+1794     JAMA Internal MedicineNovember 2015   Volume 175, Number 11(Reprinted)jamainternalmedicine.com
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (2) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+metronidazole or oral vancomycin were not significant pre-
+dictors in the multivariable model.
+CDI-Related Complications and Mortality Within 30 Days
+ThefrequencyofCDI-relatedcomplications(ie,megacolon,col-
+ectomy for fulminant colitis, and ICU care related to CDI) and
+deaths is summarized inTable 3. The Tox+/PCR+ patients had
+more CDI-related complications than Tox−/PCR+ patients and
+Tox−/PCR−patients(10[7.6%]of131vs0[0%]of162vs3[0.3%]
+of 1123,P< .001). In contrast, the rate of CDI-related complica-
+tions was similar between Tox−/PCR+ patients and Tox−/PCR−
+patients(0%vs0.3%,P> .99).TheTox+/PCR+patientsalsohad
+more CDI-related deaths than Tox−/PCR+ patients and Tox−/
+PCR−patients(11[8.4%]of131vs1[0.6%]of162vs0[0%]of1123,
+P< .001) while the rate was similar between Tox−/PCR+ pa-
+tientsandTox−/PCR−patients(0.6%vs0%,P= .13).Twodeaths
+intheTox+/PCR+groupweredirectlyattributabletoCDI,and9
+had CDI as a contributing factor. One Tox−/PCR+ patient (pa-
+tient 1641 in eTable 3 in theSupplement) had an uncompli-
+cated, recurrent CDI that resolved before care was withdrawn
+forsevereunderlyingillness,butCDIwasconsideredacontrib-
+uting factor to death.
+RepeatC difficileTesting and Treatment Within 14 Days
+RepeatC difficiletesting and treatment within 14 days of day 1
+was analyzed as an indication of ongoing clinical suspicion or
+empiricaltreatmentforCDIinTox−/PCR+patients(Table3).Dur-
+ing this period, 61 Tox−/PCR+ patients (37.7%) were retested,
+and 13 (8.0%) had toxins detected (mean time to positive re-
+sult, 5.7 days; 95% CI, 3.2-8.2 days). None of these patients de-
+veloped aC difficile–related complication.However, one pa-
+tient (patient 1641 in eTable 3 in theSupplement) had CDI that
+was considered a contributing factor to death, although symp-
+toms had resolved before care was withdrawn for other rea-
+sons.Duringthesameperiod,mostTox−/PCR+patients(59.3%
+[96of162])receivednotreatment,45patients(27.8%[45of162])
+receivedpartialtreatment(1-9days),and21patients(13.0%[21
+of 162]) received the equivalent of full treatment (≥10 days).
+Clostridium difficileTesting and Treatment
+Between 15 and 30 Days
+Clostridiumdifficiletestsandtreatment15to30daysafterday
+1 were analyzed as a proxy for recurrent or prolonged CDI
+(Table 3). During this period, Tox+/PCR+ patients were re-
+tested almost twice as often as Tox−/PCR+ patients (19.8% vs
+Figure 1. Flow of Patients Through Testing and Follow-up
+1467Eligible patients (hospitalized adults testedfor C difficile ≥72 h after admission)
+1425Tested by C difficile toxin immunoassay,PCR, and culture
+42Excluded41Discharged before testing
+1Missed
+9Excluded (Tox–/PCR–/Culture+)
+293C difficile positive1123C difficile negative
+30-Day follow-up (mortality)
+751Alive98Died
+274Unknown
+30-Day follow-up (mortality)
+120Alive23Died
+19Unknown
+30-Day follow-up (mortality)
+96Alive14Died
+21Unknown
+Baseline
+773Diarrhea350<3 Stools per 24 h
+Baseline
+121Diarrhea41<3 Stools per 24 h
+Baseline
+115Diarrhea16<3 Stools per 24 h
+1123Tox–/PCR–a,c162Tox–/PCR+a,b131Tox+/PCR+a
+15-Day follow-up (diarrhea)
+1048Resolved16Diarrhea
+57Discharged with diarrhea2Died with diarrhea
+15-Day follow-up (diarrhea)
+148Resolved2Diarrhea
+12Discharged with diarrhea0Died with diarrhea
+15-Day follow-up (diarrhea)
+109Resolved6Diarrhea
+15Discharged with diarrhea1Died with diarrhea
+1416Included in study
+Tox+/PCR+ indicatesClostridiumdifficiletoxin immunoassay positive
+and polymerase chain reactionpositive; Tox−/PCR+,C difficiletoxin
+immunoassay negative andpolymerase chain reaction positive;
+and Tox−/PCR−,C difficiletoxinimmunoassay negative and
+polymerase chain reaction negative.
+aClostridium difficiletest group based
+on US Food and DrugAdministration–approved toxin
+immunoassay and polymerase chainreaction results.
+bIncludes one patient with
+false-positive immunoassay.
+cIncludes 20 patients with
+false-positive immunoassay.
+Overdiagnosis ofClostridium difficileInfectionOriginal InvestigationResearch
+jamainternalmedicine.com(Reprinted)JAMA Internal MedicineNovember 2015   Volume 175, Number 111795
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (3) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+11.1%,P= .04) and were positive 3 times more often (10.7% vs
+3.1%,P< .001). During the same period, most Tox−/PCR+ pa-
+tients (78.4% [127 of 162]) received no treatment, while 13 pa-
+tients(8.0%[13of162])receivedtreatmentforatleast10days.
+Additional Analyses to Evaluate the Robustness
+of the Study Findings
+Outcome differences between the Tox−/PCR+ and Tox+/PCR+
+groups remained significant when comparisons were limited
+tothesubgroupofTox−/PCR+patientswhoreceivedfullorpar-
+tial treatment within 14 days (P= .04 for time to resolution of
+diarrhea andP= .004 for CDI-related complication or death)
+ornotreatment(P= .003fortimetoresolutionofdiarrheaand
+P< .001 for CDI-related complication or death). No signifi-
+cant outcome differences were observed between the Tox−/
+PCR−groupandindividualTox−/PCR+subgroupswithorwith-
+out treatment.
+If the historical cell cytotoxin assay had been used for di-
+agnosis instead of a toxin immunoassay, 48 additional Tox−/
+PCR+ patients (29.6%) would have been reported positive.
+However, this subgroup had a low toxin concentration (me-
+dian, 10 ng/mL; interquartile range, 2-81 ng/mL) and out-
+comes that were similar to cell cytotoxin–negative Tox−/
+PCR+ patients (P= .47 for time to resolution of diarrhea and
+P= .30 for CDI-related complication or death), with no differ-
+ence in treatment (P= .61), and better than Tox+/PCR+ pa-
+Table 1. Baseline Characteristics of the Study Population byClostridium difficileTest Group
+Characteristic
+C difficilePositiveC difficileNegative
+PValueaTox+/PCR+b(n = 131)Tox−/PCR+b,c(n = 162)Tox−/PCR−b,d(n = 1123)
+Age, median (IQR), y                               64 (52-71)                         58 (48-68)                     59 (47-71)                              .12
+Female sex, No. (%)                                 64 (48.9)                            83 (51.2)                      530 (47.2)                                 .61
+Comorbidities, median (IQR)                   4 (2-6)                                4 (2-5)                             3 (2-5)                                   .01
+APR-DRG risk of mortalitysubclass 3 or 4, No. (%)104 (79.4)                         128 (79.0)                      787 (70.1)                                 .008
+Intensive care unit care on day 1±1 d, No. (%)e30 (22.9)                            57 (35.2)                      435 (38.7)                                 .002
+Hospital days before day 1,median (IQR)e10 (6-24)                              8 (5-12)                          8 (5-12)                              <.001
+Admitted from health carefacility, No. (%)40 (30.5)                            34 (21.0)                      160 (14.2)                              <.001
+C difficilepositive within 90 dbefore day 1e5 (3.8)                              10 (6.2)                           13 (1.2)                                 <.001
+Antibiotic days within 90 d beforeday 1, median (IQR)e16 (7-32)                           10 (4-27)                          8 (4-18)                              <.001
+Other diarrheal orgastrointestinal inflammatory
+process, No. (%)f
+8 (6.1)                              27 (16.7)                      161 (14.3)                                 .02
+Metronidazole or oralvancomycin within 48 h before
+day 1, No. (%)e
+3 (2.3)                              32 (19.8)                      184 (16.4)                              <.001
+WBC count ≥15 000 cells/μL onday 1 ±1 d, No./total No. tested
+(%)e
+54/129 (41.9)                  50/154 (32.5)            323/1101 (29.3)                     .01
+WBC count <4000 cells/μL on day1 ±1 d, No./total No. tested (%)e20/129 (15.5)                  32/154 (20.8)            200/1101 (18.2)                     .52
+Creatinine level >1.5 mg/dL onday 1 ±1 d, No./total No. tested
+(%)e
+36/127 (28.3)                  45/156 (28.8)            297/1102 (27.0)                     .85
+Albumin level <2.5 g/dL on day 1±1 d, No./total No. tested (%)e29/48 (60.4)                     50/70 (71.4)               318/475 (66.9)                       .46
+Diarrhea present on day 1 ±1 d,No. (%)e121 (92.4)                         143 (88.3)                      927 (82.5)                                 .004
+Stool count on day 1, median(IQR)e5 (3-6)                                3 (2-5)                             3 (2-5)                                <.001
+C difficiletoxin B, median (IQR),ng/mL640.8 (172.5-1194.0)        1.1 (0.3-2.5)            NA                                              <.001
+HypervirulentC difficileribotypeRT027/078, No. (%)68 (51.9)                            39 (24.1)                      NA                                              <.001
+C difficilebinary toxin positive,No. (%)71 (54.2)                            45 (27.8)                      NA                                              <.001
+Log10C difficileDNA copies/mL,median (IQR)7.3 (6.6-7.7)                     4.9 (4.4-6.2)            NA                                              <.001
+Fecal lactoferrin level, median(IQR), μg/mL,37.7 (8.8-261.5)             20.1 (5.0-50.3)               7.8 (0.5-32.6)                  <.001
+Normal lactoferrin level,No./total No. testedg25/117 (21.4)                  44/142 (31.0)               89/188 (47.3)                     <.001
+High lactoferrin level, No./totalNo. testedh43/117 (36.8)                  19/142 (13.4)                 9/188 (4.8)                       <.001
+Abbreviations: APR-DRG, all-patientrefined diagnosis-related group;
+IQR, interquartile range; NA, notapplicable; Tox+/PCR+,C difficile
+toxin immunoassay positive andpolymerase chain reaction positive;
+Tox−/PCR+,C difficiletoxinimmunoassay negative and
+polymerase chain reaction positive;Tox−/PCR−,C difficiletoxin
+immunoassay negative andpolymerase chain reaction negative;
+WBC, white blood cell.
+SI conversion factors: To convertWBC count to ×109/L, multiply by
+0.001; to convert creatinine level tomicromoles per liter, multiply by
+88.4; to convert albumin level tograms per liter, multiply by 10.
+aPvalue for significance across 3
+groups except for characteristicsnot applicable to Tox−/PCR− group.
+bClostridium difficiletest group based
+on US Food and DrugAdministration–approved toxin
+immunoassay and PCR results.
+cIncludes one patient with
+false-positive toxin immunoassay.
+dIncludes 20 patients with
+false-positive toxin immunoassay.
+eDay 1 is the day of sample collection
+for theC difficiletoxin test.
+fIncludes inflammatory bowel
+diseases, functional diarrhealdisorders, diverticulitis,
+appendicitis, ischemic colitis, otherinfectious or noninfectious
+enterocolitis, graft-vs-host disease,and peritoneal, mesenteric, or
+retroperitoneal infections.
+gNormal fecal lactoferrin level
+defined as within the upper limit ofa healthy person’s reference range
+per the manufacturer’s packageinsert.
+hHigh fecal lactoferrin level defined
+as exceeding the 95th percentilefecal lactoferrin level in Tox−/PCR−
+patients (>89.05 μg/mL).
+ResearchOriginal InvestigationOverdiagnosis ofClostridium difficileInfection
+1796     JAMA Internal MedicineNovember 2015   Volume 175, Number 11(Reprinted)jamainternalmedicine.com
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (4) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+tients (P< .001 for time to resolution of diarrhea andP=.03
+for CDI-related complication or death).
+Discussion
+This study addresses an important question for physicians,
+hospitals, and policy makers: do toxin-negative patients with
+a positiveC difficilePCR test result require treatment? To
+answer this question, we prospectively tested 1416 hospital-
+ized patients with FDA-approved PCR tests while maintain-
+ing our existing toxin test for clinical diagnosis to determine
+the natural history of toxin-negative patients with positive
+PCR results. We found that 55.3% (162 of 293) of patients
+with a positiveC difficilePCR test result lacked toxin by the
+clinical toxin immunoassay test and had outcomes that were
+comparable to patients with noC difficiledetected. These
+Tox−/PCR+ patients had milder symptoms at the time of test-
+ing and a shorter duration of diarrhea than toxin-positive
+patients. In total, 58.7% (95 of 162) were never retested, and
+only 13.0% (21 of 162) received the equivalent of a full course
+of treatment. Repeat analyses with the treated Tox−/PCR+
+patients removed did not change our conclusions. Overall, 18
+of 19C difficile–related complications and deaths (94.7%)
+occurred in toxin-positive patients. Only one of 162 toxin-
+negative patients (0.6%) was considered to have CDI as a con-
+tributing factor to death.
+Ourfindingsareconsistentwiththeconventionalviewthat
+CDIisatoxin-mediatedinflammatorydiseaseprecededbyan-
+tibiotic exposure andC difficileovergrowth.3Toxin-negative
+patients had less antibiotic exposure,C difficileDNA, and in-
+flammationandmanifestedmildersymptomsandnocompli-
+cations, despite minimal or no treatment. These findings
+stronglysuggestthatmostpatientswithnegativetoxintestre-
+sultsandCdifficiledetectedbyPCRdonotneedtreatmentfor
+CDI.Wesuspectthatmostofthesepatientswerecolonizedwith
+C difficileand had another cause of diarrhea. This hypothesis
+is supported by studies22-26,31showing thatC difficilecoloni-
+zationandimmunityarecommoninhospitalizedpatientsand
+most nosocomial diarrhea is noninfectious. It is possible that
+some toxin-negative patients have mild or early infection be-
+cause clinical toxin tests can miss toxin at low concentra-
+tions, and occasional toxin-negative patients become posi-
+tive on repeat testing.3,10,18,32-35Correspondingly, we
+detected toxin in 29.6% (48 of 162) of Tox−/PCR+ patients by
+the historical cell cytotoxin assay, and 8.0% (13 of 162) of
+Figure 2. Kaplan-Meier Curves of Time to Resolution of Diarrhea by
+Clostridium difficileTest Group
+1.0
+0.8
+0.6
+0.4
+0.2
+00
+131162
+1123
+3
+6260
+328
+5
+4129
+172
+7
+2921
+99
+10
+2510
+42
+14
+82
+23
+Proportion With Diarrhea
+Duration of Diarrhea, Including Day of Testing, d
+No. at riskTox+/PCR+
+Tox–/PCR+Tox–/PCR–
+Tox+/PCR+Tox–/PCR+
+Tox–/PCR–
+The median duration of diarrhea for patients with at least 1 day was 3 days(interquartile range, 1-6 days) for Tox+/PCR+ (121 of 131), 2 days (interquartile
+range, 1-4 days) for Tox−/PCR+, and 2 days (interquartile range, 1-3 days) forTox−/PCR−(927of1123)(P< .001). Log-rankPvalues areP< .001 for all groups,
+P=.003forTox+/PCR+vsTox−/PCR+,(143of162)P< .001 for Tox+/PCR+ vsTox−/PCR−, andP< .001 for Tox−/PCR+ vs Tox−/PCR−. Tox+/PCR+ indicatesC
+difficiletoxin immunoassay positive and polymerase chain reaction positive;Tox−/PCR+,C difficiletoxin immunoassay negative and polymerase chain
+reaction positive; Tox−/PCR−,C difficiletoxin immunoassay negative andpolymerase chain reaction negative.
+Table 2. Relative Risk (95% CI) of Diarrhea Each Day
+Day
+Comparison
+Tox+/PCR+ vs Tox−/PCR+         Tox+/PCR+ vs Tox−/PCR−         Tox−/PCR+ vs Tox−/PCR−
+1                     1.05 (0.97-1.13)                                       1.12 (1.06-1.18)                                       1.07 (1.01-1.14)
+2                     1.27 (1.03-1.56)                                       1.46 (1.29-1.73)                                       1.18 (0.99-1.40)
+3                     1.28 (0.98-1.67)                                       1.62 (1.32-1.98)                                       1.27 (1.02-1.58)
+4                     1.51 (1.07-02.13)                                    1.87 (1.46-2.40)                                       1.24 (0.93-1.66)
+5                     1.75 (1.15-2.65)                                       2.04 (1.53-2.73)                                       1.17 (0.82-1.67)
+6                     1.88 (1.17-3.02)                                       2.31 (1.67-3.20)                                       1.23 (0.81-1.85)
+7                     1.71 (1.02-2.85)                                       2.51 (1.73-3.64)                                       1.47 (0.95-2.29)
+8                     2.30 (1.25-4.22)                                       2.72 (1.82-4.06)                                       1.18 (0.69-2.04)
+9                     3.09 (1.54-6.20)                                       3.90 (2.52-6.03)                                       1.26 (0.66-2.42)
+10                     3.18 (1.37-7.38)                                       3.67 (2.18-6.19)                                       1.16 (0.53-2.53)
+11                     3.18 (1.37-7.38)                                       4.06 (2.39-6.90)                                       1.28 (0.58-2.81)
+12                     2.89 (1.14-7.30)                                       3.64 (2.00-6.62)                                       1.26 (0.54-2.96)
+13                     3.09 (0.99-9.63)                                       3.30 (1.63-6.68)                                       1.07 (0.38-3.02)
+14                     4.95 (1.07-22.90)                                    2.98 (1.36-6.53)                                       0.60 (0.14-2.53)
+15                     3.71 (0.76-18.08)                                    3.22 (1.28-8.07)                                       0.87 (0.20-3.73)
+Abbreviations: Tox+/PCR+,Clostridium difficiletoxin
+immunoassay positive andpolymerase chain reaction positive;
+Tox−/PCR+,C difficiletoxinimmunoassay negative and
+polymerase chain reaction positive;Tox−/PCR−,C difficiletoxin
+immunoassay negative andpolymerase chain reaction negative.
+Overdiagnosis ofClostridium difficileInfectionOriginal InvestigationResearch
+jamainternalmedicine.com(Reprinted)JAMA Internal MedicineNovember 2015   Volume 175, Number 111797
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (5) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+Tox−/PCR+ patients retested positive by the clinical toxin
+immunoassay in a subsequent sample.However, the relative
+lack of adverse events in this subgroup suggests that these
+patients are also at lower risk of complications than clinical
+toxin immunoassay–positive patients and routine treatment
+is unnecessary.
+These results are consistent with a large retrospective
+study36that found noC difficile–related complications and
+lower mortality among hospitalized patients with negative
+toxin results. Our findings also agree with several smaller
+studies11,14,37-41and one large, multicenter study21that re-
+ported milder symptoms or a lower mortality rate in toxin-
+negativepatientswithpositivePCRresults.Otherstudies42-45
+thathaveinvestigatedclinicalcharacteristicsofTox−/PCR+pa-
+tients were generally underpowered or not designed to com-
+pare outcomes. Finally, there are reports of patients with se-
+vereorcomplicatedCDImissedbytoxintests,43,46butourdata
+suggest that such patients are rare.
+Strengths of our study include the prospective study de-
+sign,largesamplesize,nonreportingofPCRresults,measure-
+ment of duration of diarrhea, inclusion of patients withoutC
+difficileforcomparison,andrigorousevaluationofCdifficile–
+related complications and deaths. We quantified fecalC diffi-
+cileDNA,toxins,andinflammationtoprovidemechanisticin-
+sight into the reasons for the different test results and
+outcomes. The primary weakness of the study was the inabil-
+itytoachieveequivalentriskallocationbetweengroups.Inad-
+dition, we cannot exclude the possibility that empirical treat-
+mentaffectedoutcomesinsomeTox−/PCR+patients,butthe
+outcome differences we observed remained when these pa-
+tients were removed. It is also possible that our outcome ad-
+judicators were influenced by positive toxin results, but 26 of
+42 Tox+/PCR+ patients with ICU care or death (61.9%) were
+judged not to have a CDI-related outcome, indicating that the
+adjudication was a highly discriminatory process overall. Fi-
+nally, we cannot exclude the possibility that systematic un-
+derrecording of stools in patients with negative toxin results
+couldaccountfortheshorterdurationofdiarrheainthesepa-
+tients. However, our requirement of 2 or more days without
+diarrheatoendanepisodewouldmakeitunlikelythatunder-
+recording by individual nurses would have a significant ef-
+fect on our diarrhea measure.
+Molecular tests have the potential benefits of decreasing
+the need for repeat testing and empirical treatment because
+Table 3. Nondiarrheal Outcomes and Treatment byClostridium difficileTest Group
+Outcome
+C difficilePositiveC difficileNegative
+PValueaTox+/PCR+(n = 131)Tox−/PCR+(n = 162)Tox−/PCR−(n = 1123)
+C difficile–Related Complication or Death Within 30 d, No. (%)
+Complicationb10 (7.6)                                                   0                                                              3 (0.3)                                              <.001
+Deathc11 (8.4)                                                   1 (0.6)                                                   0                                                         <.001
+Complication or death                                                 18 (13.7)                                                 1 (0.6)                                                   3 (0.3)                                              <.001
+RepeatC difficileTesting Within 14 d, No. (%)
+Retested                                                                          14 (10.7)                                              61 (37.7)                                           374 (33.3)                                           <.001
+Positive toxin test result                                                3 (2.3)                                                 13 (8.0)                                                 17 (1.5)                                              <.001
+RepeatC difficileTesting at 15-30 d, No. (%)
+Tested                                                                               26 (19.8)                                              18 (11.1)                                           106 (9.4)                                                 .001
+Positive toxin test result                                             14 (10.7)                                                 5 (3.1)                                                 10 (0.9)                                              <.001
+Treatment Within 14 d
+Metronidazole or oral vancomycin, No. (%)d131 (100)                                               66 (40.7)                                           361 (32.1)                                           <.001
+Duration of metronidazole or oralvancomycin, if treated, median (IQR), d14 (11-14)                                             6 (3-11)                                                5 (2-9)                                             <.001
+Non–C difficileantibiotic, No. (%)                            98 (74.8)                                           141 (87.0)                                           912 (81.2)                                              .03
+Duration of non–C difficileantibiotic, iftreated, median (IQR), d11 (3-14)                                             10 (4-14)                                             10 (4-14)                                             .13
+Treatment at 15-30 d
+Metronidazole or oral vancomycin, No. (%)          75 (57.3)                                              35 (21.6)                                           137 (12.2)                                           <.001
+Duration of metronidazole or oralvancomycin, if treated, median (IQR), d9 (3-14)                                                4 (3-15)                                                6 (3-9)                                             <.001
+Abbreviations: IQR, interquartile range; Tox+/PCR+,C difficiletoxinimmunoassay positive and polymerase chain reaction positive; Tox−/PCR+,C
+difficiletoxin immunoassay negative and polymerase chain reaction positive;Tox−/PCR−,C difficiletoxin immunoassay negative and polymerase chain
+reaction negative.
+aPvalue for significance across 3 groups.
+bIntensive care unit care, colectomy, or megacolon related toC difficile
+infection. The Tox+/PCR+ complications included 3 fulminant colitis ormegacolon and 7 intensive care unit care related toC difficileinfection. Two
+Tox−/PCR+ patients with partially treated complications diagnosed as having apositive toxin test result before day 1 were excluded. The Tox−/PCR−
+complications included 3 intensive care unit care related toC difficileinfection.P< .001 for Tox+/PCR+ vs Tox−/PCR+ andP> .99 for Tox−/PCR+ vs
+Tox−/PCR−.
+cAll-cause mortality within 30 days was 14 (10.7%), 23 (14.2%), and 98 (8.7%),
+respectively, for the 3 groups.P= .08 for all groups andP= .21 for Tox+/PCR+vs Tox−/PCR+. ForC difficileinfection–related death,P< .001 for Tox+/PCR+ vs
+Tox−/PCR+ andP= .13 Tox−/PCR+ vs Tox−/PCR−.
+dFull treatment (10 days) and partial treatment (1-9 days) values were 119
+(90.8%) and 12 (9.2%), respectively; 21 (13.0%) and 45 (27.8%), respectively;and 82 (7.3%) and 279 (24.8%), respectively, for the 3 groups.
+ResearchOriginal InvestigationOverdiagnosis ofClostridium difficileInfection
+1798     JAMA Internal MedicineNovember 2015   Volume 175, Number 11(Reprinted)jamainternalmedicine.com
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (6) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+of their high negative predictive value and may have a role
+in infection prevention if Tox−/PCR+ patients contribute to
+the spread ofC difficilein health care facilities.34,43,47How-
+ever, our results offer compelling evidence that as many as
+half of the patients with positiveC difficilePCR test results
+are likely to be overdiagnosed and exposed to unnecessary
+treatment at institutions using molecular tests. The number
+of patients potentially affected by this issue is massive.
+Most institutions experience a 50% to 100% increase in
+reported CDI after switching to molecular tests, and the pro-
+portion of institutions using molecularC difficiletests has
+increased dramatically since initiation in 2009 of the first
+FDA-approved molecular test.11-15In 2014, almost 44% of
+NHSN acute care facilities reported using molecular tests for
+CDI diagnosis (NHSN, written communication, September
+15, 2014).
+Therefore, there is an urgent need to educate physicians
+that molecular tests are not specific for CDI, even in the pres-
+ence of symptoms, and patients with positive PCR results do
+not necessarily need treatment. Similarly, while underdiag-
+nosis may occur with lack of testing,48policy makers should
+be aware that molecularC difficiletests are a major cause of
+overdiagnosis and consider the potential costs of overtreat-
+mentinrecommendationsandanalyses.Laboratoriesneedto
+be aware that rejection of formed stool samples is not suffi-
+cienttoensurethatallpositivemolecularCdifficileresultsrep-
+resent disease.
+We concur with authors in the United Kingdom that mo-
+leculartestsshouldnotbeusedasastand-alonediagnostictest
+for CDI and diagnostic recommendations should move back in
+the direction of defining clinical disease as a positive toxin re-
+sult in patients with diarrhea.21,49Most toxin-negative pa-
+tients withC difficiledo not need specific treatment, although
+there may be a role for identifying carriers to prevent
+transmission.21,43Futurestudiesshouldfocusondevelopingdi-
+agnosticapproachestoaccuratelydistinguishpatientswithac-
+tive infection vs colonization, which may include quantitation
+ofC difficileDNA, toxins, or host response. In the meantime,
+2-step testing with a screening test, such as PCR or glutamate
+dehydrogenase antigen detection, followed by a toxin test to
+confirmactiveinfectionisareasonablediagnosticstrategy.21,49
+Conclusions
+Uptohalfofthepatientswithpositivemoleculartestresultsfor
+C difficiledo not experience adverse events without treatment
+and do not need treatment for CDI. Exclusive reliance on mo-
+lecular tests forC difficilediagnosis is likely to result in overdi-
+agnosis,unnecessarytreatment,andincreasedhealthcarecosts.
+ARTICLE INFORMATION
+Accepted for Publication:May 26, 2015.
+Published Online:September 8, 2015.doi:10.1001/jamainternmed.2015.4114.
+Author Affiliations:Department of Pathology andLaboratory Medicine, University of California Davis
+School of Medicine, Sacramento (Polage, Gyorke,Kennedy, Leslie, Wang); Division of Infectious
+Diseases, Department of Internal Medicine,University of California Davis School of Medicine,
+Sacramento (Polage, Nguyen, Lee, Solnick, Cohen);Department of Microbiology and Immunology,
+University of Michigan Medical School, Ann Arbor(Leslie); Center for Healthcare Policy and Research,
+University of California Davis, Sacramento (Chin,Romano); Yolo County Health Department,
+Woodland, California (Wang); Department ofLaboratory Medicine, Memorial Sloan Kettering
+Cancer Center, New York, New York (Huang, Tang);Department of Clinical Laboratory, First Affiliated
+Hospital of Sun Yat-sen University, Guangzhou,Guangdong, China (Huang); Weill Medical College
+of Cornell University, New York, New York (Tang);Division of Biostatistics, Department of Public
+Health Sciences, University of California DavisSchool of Medicine, Sacramento (Kim, Taylor);
+Division of General Medicine, Department ofInternal Medicine, University of California Davis
+School of Medicine, Sacramento (Romano); Divisionof General Pediatrics, Department of Pediatrics,
+University of California Davis School of Medicine,Sacramento (Romano); Department of Emergency
+Medicine, University of California Davis School ofMedicine, Sacramento (Panacek, Goodell);
+Department of Medical Microbiology andImmunology, University of California Davis School
+of Medicine, Sacramento (Solnick).
+Author Contributions: Dr Polage had full access toall the data in the study and takes responsibility for
+the integrity of the data and the accuracy of theanalysis.
+Study concept and design:Polage, Chin, Romano,Cohen.
+Acquisition, analysis, or interpretation of data:Polage, Gyorke, Kennedy, Leslie, Chin, Wang,
+Nguyen, Huang, Tang, Lee, Panacek, Goodell,Solnick, Cohen.
+Drafting of the manuscript:Polage.Critical revision of the manuscript for important
+intellectual content:All authors.Statistical analysis:Polage, Kim, Taylor.
+Obtained funding:Polage, Romano.Administrative, technical, or material support:
+Polage, Panacek.Study supervision:Polage.
+Conflict of Interest Disclosures:All authors havecompleted and submitted the ICMJE Form for
+Disclosure of Potential Conflicts of Interest. DrPolage reported receiving research materials (ie,
+Clostridium difficilediagnostic test kits andreagents) from Meridian Biosciences, Cepheid,
+TechLab, and Alere; and honoraria for a webinarabout diagnostic testing forC difficileand
+nosocomial diarrhea from Alere. Dr Nguyenreported receiving research funding for
+pharmaceutical clinical trials of treatment forpatients withC difficilefrom Merck, Cubist, and
+Viropharma. Dr Tang reported receiving researchfunding and materials from ACEA Biosciences. Dr
+Cohen reported serving on an advisory board forMerck and receiving research funding for
+pharmaceutical clinical trials of treatment forpatients withC difficilefrom Merck, Viropharma,
+Seres Health, and Actelion. No other disclosureswere reported.
+Funding/Support:This study was supported bygrants UL1 RR024146 and TL1 RR024145-06 from
+the National Center for Research Resources (DrPolage), grant UL1TR000002 and linked award
+TL1TR000133 from the National Center forAdvancing Translational Sciences (Dr Chin), and grant
+T32HS022236 from the Agency for HealthcareResearch and Quality through the Quality Safety
+Comparative Effectiveness Research TrainingProgram (Dr Chin).Clostridium difficilediagnostic test
+kits and reagents were received from MeridianBiosciences, Cepheid, TechLab, and Alere.
+Role of the Funder/Sponsor:The industrycontributors to this study had no role in the design
+and conduct of the study; the collection,management, analysis, and interpretation of the
+data; or the preparation, review, or approval of themanuscript.
+Additional Contributions:We thank the followingfor their contributions without compensation: staff
+of the University of California Davis Medical CenterClinical Microbiology Laboratory for assistance with
+testing and processing samples; Jennifer Brown,MD (University of California Davis School of
+Medicine) for blinded electronic health recordreviews; and all the volunteers who participated as
+undergraduates at the University of California Davisor California State University, Sacramento, in
+patient enrollment, clinical data collection, orsample processing, including Sameer Aggarwal, BS,
+Robert Araiza, BS, Adeel Ashfaq, BS, MercyBechtold, BS, Joel Breck, BA, MPH, Jenna DeYoung,
+BS, Tu Dinh, BS, Timothy Fong, BS, MPH, KaitlinGee, BS, Megan Gilbert, BS, Breana Hill, BS, Chae Ji
+Kim, BS, Bryan Lee, BS, Dan O’Brien, BS, ThomasOsterberg-Diess, BS, Erik Pennell, BS, Roberto
+Ramos, BS, Daniel Sadoma, BS, Natalie Telis, BS,Joanna Tripet-Diel, BS, MPH, Andrew Tubbs, BS,
+William Valcheck, BS, and Alvin Au Yeung, BS.
+Overdiagnosis ofClostridium difficileInfectionOriginal InvestigationResearch
+jamainternalmedicine.com(Reprinted)JAMA Internal MedicineNovember 2015   Volume 175, Number 111799
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (7) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+REFERENCES
+1. Magill SS, Edwards JR, Bamberg W, et al;Emerging Infections Program Healthcare-
+Associated Infections and Antimicrobial UsePrevalence Survey Team. Multistate
+point-prevalence survey of health care–associatedinfections.N Engl J Med. 2014;370(13):1198-1208.
+2. Lucado J, Gould C, Elixhauser A.Clostridiumdifficile Infections (CDI) in Hospital Stays, 2009:
+Statistical Brief #124. Rockville, MD: Agency for HealthCare Policy and Research; 2006-2012. Healthcare
+Cost and Utilization Project (HCUP) Statistical Briefs.
+3. Rupnik M, Wilcox MH, Gerding DN.Clostridiumdifficileinfection: new developments in epidemiology
+and pathogenesis.Nat Rev Microbiol. 2009;7(7):526-536.
+4. McDonald LC, Lessa F, Sievert D, et al; Centersfor Disease Control and Prevention (CDC). Vital
+signs: preventingClostridium difficileinfections.MMWR Morb Mortal Wkly Rep. 2012;61(9):157-162.
+5. Zilberberg MD, Shorr AF, Kollef MH. Increase inadultClostridium difficile–related hospitalizations
+and case-fatality rate, United States, 2000-2005.Emerg Infect Dis. 2008;14(6):929-931.
+6. Kang J, Sickbert-Bennett EE, Brown VM, WeberDJ, Rutala WA. Changes in the incidence of health
+care–associated pathogens at a university hospitalfrom 2005 to 2011.Am J Infect Control. 2014;42(7):
+770-775.
+7. Dubberke ER, Olsen MA. Burden ofClostridiumdifficileon the healthcare system.Clin Infect Dis.
+2012;55(suppl 2):S88-S92.
+8. McDonald LC, Killgore GE, Thompson A, et al. Anepidemic, toxin gene–variant strain ofClostridium
+difficile.N Engl J Med. 2005;353(23):2433-2441.
+9. PépinJ,ValiquetteL,AlaryME,etal.Clostridiumdifficile–associated diarrhea in a region of Quebec
+from 1991 to 2003: a changing pattern of diseaseseverity.CMAJ. 2004;171(5):466-472.
+10. Burnham CA, Carroll KC. Diagnosis ofClostridium difficileinfection: an ongoing
+conundrum for clinicians and for clinicallaboratories.Clin Microbiol Rev. 2013;26(3):604-630.
+11. Longtin Y, Trottier S, Brochu G, et al. Impact ofthe type of diagnostic assay onClostridium difficile
+infection and complication rates in a mandatoryreporting program.Clin Infect Dis. 2013;56(1):67-73.
+12. Moehring RW, Lofgren ET, Anderson DJ. Impactof change to molecular testing forClostridium
+difficileinfection on healthcare facility–associatedincidence rates.Infect Control Hosp Epidemiol.
+2013;34(10):1055-1061.
+13. Fong KS, Fatica C, Hall G, et al. Impact of PCRtesting forClostridium difficileon incident rates and
+potential on public reporting: is the playing fieldlevel?Infect Control Hosp Epidemiol. 2011;32(9):
+932-933.
+14. Koo HL, Van JN, Zhao M, et al. Real-timepolymerase chain reaction detection of
+asymptomaticClostridium difficilecolonization andrisingC. difficile–associated disease rates.Infect
+Control Hosp Epidemiol. 2014;35(6):667-673.
+15. Gould CV, Edwards JR, Cohen J, et al;Clostridium difficileInfection Surveillance
+Investigators, Centers for Disease Control andPrevention. Effect of nucleic acid amplification
+testing on population-based incidence rates of
+Clostridium difficileinfection.Clin Infect Dis. 2013;57(9):1304-1307.
+16. Bartlett JG, Taylor NS, Chang T, Dzink J. Clinicaland laboratory observations inClostridium difficile
+colitis.Am J Clin Nutr. 1980;33(11)(suppl):2521-2526.
+17. Gerding DN, Johnson S, Peterson LR, MulliganME,SilvaJJr.Clostridium difficile–associated
+diarrhea and colitis.Infect Control Hosp Epidemiol.1995;16(8):459-477.
+18. Bartlett JG, Gerding DN. Clinical recognitionand diagnosis ofClostridium difficileinfection.Clin
+Infect Dis. 2008;46(suppl 1):S12-S18.
+19. Wilcox MH, Planche T, Fang FC, Gilligan P. Whatis the current role of algorithmic approaches for
+diagnosis ofClostridium difficileinfection?J ClinMicrobiol. 2010;48(12):4347-4353.
+20. Dubberke ER, Han Z, Bobo L, et al. Impact ofclinical symptoms on interpretation of diagnostic
+assays forClostridium difficileinfections.J ClinMicrobiol. 2011;49(8):2887-2893.
+21. Planche TD, Davies KA, Coen PG, et al.Differences in outcome according toClostridium
+difficiletesting method: a prospective multicentrediagnostic validation study ofC difficileinfection.
+Lancet Infect Dis. 2013;13(11):936-945.
+22. Kyne L, Warny M, Qamar A, Kelly CP.Asymptomatic carriage ofClostridium difficileand
+serum levels of IgG antibody against toxin A.N EnglJ Med. 2000;342(6):390-397.
+23. Samore MH, DeGirolami PC, Tlucko A,Lichtenberg DA, Melvin ZA, Karchmer AW.
+Clostridium difficilecolonization and diarrhea at atertiary care hospital.Clin Infect Dis. 1994;18(2):181-
+187.
+24. Leekha S, Aronhalt KC, Sloan LM, Patel R,Orenstein R. AsymptomaticClostridium difficile
+colonization in a tertiary care hospital: admissionprevalence and risk factors.Am J Infect Control.
+2013;41(5):390-393.
+25. Alasmari F, Seiler SM, Hink T, Burnham CA,Dubberke ER. Prevalence and risk factors for
+asymptomaticClostridium difficilecarriage.ClinInfect Dis. 2014;59(2):216-222.
+26. Polage CR, Solnick JV, Cohen SH. Nosocomialdiarrhea: evaluation and treatment of causes other
+thanClostridium difficile.Clin Infect Dis. 2012;55(7):982-989.
+27. Brecher SM, Novak-Weekley SM, Nagy E.Laboratory diagnosis ofClostridium difficile
+infections: there is light at the end of the colon.ClinInfect Dis. 2013;57(8):1175-1181.
+28. Ryder AB, Huang Y, Li H, et al. Assessment ofClostridium difficileinfections by quantitative
+detection oftcdBtoxin by use of a real-time cellanalysis system.J Clin Microbiol. 2010;48(11):4129-4134.
+29. Leslie JL, Cohen SH, Solnick JV, Polage CR. Roleof fecalClostridium difficileload in discrepancies
+between toxin tests and PCR: is quantitation thenext step inC. difficiletesting?Eur J Clin Microbiol
+Infect Dis. 2012;31(12):3295-3299.
+30. Huang B, Jin D, Zhang J, et al. Real-time cellularanalysis coupled with a specimen enrichment
+accurately detects and quantifiesClostridium difficiletoxins in stool.J Clin Microbiol. 2014;52(4):1105-1111.
+31. Viscidi R, Laughon BE, Yolken R, et al. Serumantibody response to toxins A and B ofClostridium
+difficile.J Infect Dis. 1983;148(1):93-100.
+32. Cardona DM, Rand KH. Evaluation of repeatClostridium difficileenzyme immunoassay testing.
+J Clin Microbiol. 2008;46(11):3686-3689.
+33. Borek AP, Aird DZ, Carroll KC. Frequency ofsample submission for optimal utilization of the cell
+culture cytotoxicity assay for detection ofClostridium difficiletoxin.J Clin Microbiol. 2005;43
+(6):2994-2995.
+34. Khanna S, Pardi DS, Rosenblatt JE, Patel R,Kammer PP, Baddour LM. An evaluation of repeat
+stool testing forClostridium difficileinfection bypolymerase chain reaction.J Clin Gastroenterol.
+2012;46(10):846-849.
+35. Deshpande A, Pasupuleti V, Patel P, et al.Repeat stool testing to diagnose Clostridium
+difficile infection using enzyme immunoassay doesnot increase diagnostic yield.Clin Gastroenterol
+Hepatol. 2011;9(8):665-669.e1. doi:10.1016/j.cgh.2011.04.030.
+36. Polage CR, Chin DL, Leslie JL, Tang J, CohenSH, Solnick JV. Outcomes in patients tested for
+Clostridium difficiletoxins.Diagn Microbiol Infect Dis.2012;74(4):369-373.
+37. Gerding DN, Olson MM, Peterson LR, et al.Clostridium difficile–associated diarrhea and colitis in
+adults: a prospective case-controlled epidemiologicstudy.Arch Intern Med. 1986;146(1):95-100.
+38. Walker AS, Eyre DW, Wyllie DH, et al; Infectionsin Oxfordshire Research Database. Relationship
+between bacterial strain type, host biomarkers, andmortality inClostridium difficileinfection.Clin Infect
+Dis. 2013;56(11):1589-1600.
+39. de Jong E, de Jong AS, Bartels CJ, van derRijt-van den Biggelaar C, Melchers WJ, Sturm PD.
+Clinical and laboratory evaluation of a real-time PCRforClostridium difficiletoxin A and B genes.Eur J
+Clin Microbiol Infect Dis. 2012;31(9):2219-2225.
+40. Beaulieu C, Dionne LL, Julien AS, Longtin Y.Clinical characteristics and outcome of patients
+with Clostridium difficile infection diagnosed byPCR versus a three-step algorithm.Clin Microbiol
+Infect. 2014;20(10):1067-1073.
+41. Baker I, Leeming JP, Reynolds R, Ibrahim I,Darley E. Clinical relevance of a positive molecular
+test in the diagnosis ofClostridium difficileinfection.JHospInfect. 2013;84(4):311-315.
+42. Kaltsas A, Simon M, Unruh LH, et al. Clinicaland laboratory characteristics ofClostridium difficile
+infection in patients with discordant diagnostic testresults.J Clin Microbiol. 2012;50(4):1303-1307.
+43. Guerrero DM, Chou C, Jury LA, Nerandzic MM,Cadnum JC, Donskey CJ. Clinical and infection
+control implications ofClostridium difficileinfectionwith negative enzyme immunoassay for toxin.Clin
+Infect Dis. 2011;53(3):287-290.
+44. Humphries RM, Uslan DZ, Rubin Z.Performance ofClostridium difficiletoxin enzyme
+immunoassay and nucleic acid amplification testsstratified by patient disease severity.J Clin Microbiol.
+2013;51(3):869-873.
+45. Berry N, Sewell B, Jafri S, et al. Real-timepolymerase chain reaction correlates well with
+clinical diagnosis ofClostridium difficileinfection.J Hosp Infect. 2014;87(2):109-114.
+46. Lashner BA, Todorczuk J, Sahm DF, HanauerSB.Clostridium difficileculture–positive
+toxin-negative diarrhea.Am J Gastroenterol. 1986;81(10):940-943.
+ResearchOriginal InvestigationOverdiagnosis ofClostridium difficileInfection
+1800    JAMA Internal MedicineNovember 2015   Volume 175, Number 11(Reprinted)jamainternalmedicine.com
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (8) Break----------------
+Copyright 2015 American Medical Association. All rights reserved.
+47. Sydnor ER, Lenhart A, Trollinger B, et al.Antimicrobial prescribing practices in response to
+differentClostridium difficilediagnosticmethodologies.Infect Control Hosp Epidemiol. 2011;
+32(11):1133-1136.
+48. Davies KA, Longshaw CM, Davis GL, et al.Underdiagnosis ofClostridium difficileacross Europe:
+the European, Multicentre, Prospective, Biannual,Point-Prevalence Study ofClostridium difficile
+Infection in Hospitalised Patients With Diarrhoea(EUCLID).Lancet Infect Dis. 2014;14(12):1208-1219.
+49. Department of Health, United Kingdom. Updatedguidance on the diagnosis and reporting ofClostridium
+difficile.https://www.gov.uk/government/publications/updated-guidance-on-the-diagnosis-and-reporting
+-of-clostridium-difficile.Accessed July 8, 2015.
+Invited Commentary
+Diagnosis ofClostridium difficileInfection
+Treat the Patient, Not the Test
+Erik R. Dubberke, MD, MSPH; Carey-Ann D. Burnham, PhD
+No laboratory testcan diagnoseClostridium difficileinfec-
+tion (CDI). Rather, CDI is a clinical diagnosis that can be sup-
+ported by laboratory data. While a diagnostic assay may
+indicate the absence or presence of the organism or its tox-
+ins, the test by itself does not determine who does or does
+not have CDI.
+One of the challenges in diagnosing CDI is that there are
+more asymptomaticC difficilecarriers than there are people
+with CDI in the community and in the hospital. It is estimated
+3%to7%ofthehealthyadult
+populationarecolonizedwith
+C difficile.1Asymptomatic
+colonization is more common among individuals with inpa-
+tient health care exposures. Between 4.4% and 15% of people
+arecolonizedwithCdifficileonadmissiontothehospital,with
+as many as 50% of persons living in long-term care facilities
+colonized.1Toaddtothedilemma,diarrheaisfrequentamong
+those with health care exposures. AlthoughC difficileis the
+most common health care–associated pathogen in the United
+States and CDI is a major cause of morbidity and mortality, it
+typicallyaffectslessthan1%ofhospitalizedpatientsandisthe
+causeofdiarrheainonly5%to10%ofhospitalizedpeoplewho
+have diarrhea and are tested forC difficile.1
+In the absence of clinical data, it is impossible to deter-
+mineifapositiveCdifficilediagnosticassayrepresentsasymp-
+tomaticC difficilecolonization or CDI. To date, few high-
+quality studies have determined the true performance of
+C difficilediagnostic assays when the clinical picture is taken
+into account. This dilemma is why knowledge of the clinical
+context of the patient is so important when evaluatingC dif-
+ficileassays,asillustratedbyPolageetal2inthisissueofJAMA
+Internal Medicine.
+Polage et al2demonstrate that patients who wereC diffi-
+cilenegative by toxin enzyme immunoassay (EIA) but posi-
+tivebypolymerasechainreaction(PCR)(Tox−/PCR+)hadsig-
+nificantlylessseverediarrheaatthetimeoftesting,morerapid
+resolutionofdiarrhea,andfewerCDI-relatedcomplicationsor
+deaths(P< .001forall)comparedwithpatientswhowereposi-
+tive by toxin EIA and PCR (Tox+/PCR+). The presentation and
+outcomes of patients with specimens that were Tox−/PCR+
+were no different from those of patients with specimens that
+werenegativebybothtoxinEIAandPCR.Thestrengthsofthis
+study are its large sample size, the inclusion of high-quality
+data about patients before and after the testing episode, the
+longitudinalfollow-upofpatientsafterdischargefromthehos-
+pital, and the fact that the results of the PCR-based diagnos-
+tic assay were not reported to clinicians and so could not in-
+fluence their treatment decisions.
+The findings by Polage et al2are consistent with what is
+known about CDI, toxin EIAs, and PCR-based diagnostics for
+C difficile. Fecal samples positive for toxin have higher bacte-
+rial and toxin levels in stool and higher levels of inflamma-
+tory markers than stool samples positive by PCR alone, indi-
+catingthatthosepositivebyPCRalonearemorelikelytohave
+asymptomaticC difficilecarriage than CDI. The largestC dif-
+ficilediagnosticcomparisontodatereportedtestresultsfrom
+6522inpatientepisodesandfoundthatpeoplepositivefortoxin
+were more likely to die compared with people colonized with
+Cdifficilebutwithoutdetectabletoxininstool.3Plancheetal3
+alsoobservedthatmortalityamongindividualswhowerecolo-
+nized withC difficilebut without detectable toxin was no dif-
+ferent from that among individuals who were not colonized
+withC difficile.
+Another important observation by Polage et al,2which is
+consistent with prior literature, is that more of their patients
+were Tox−/PCR+ than Tox+/PCR+. The real-world perfor-
+mance of PCR when clinical data were taken into account in
+this study yielded a sensitivity of 100% and a specificity of
+87.4%, for a positive predictive value of 44.7%. In a much
+smaller study4in which our group prospectively interviewed
+and examined all patients who had stool samples included in
+aC difficileassay comparison, it was found that the specific-
+ityofPCR-baseddiagnosticsrangedfrom84.3%to86.1%when
+theclinicalpresentationofpatientswasconsidered,withacor-
+responding positive predictive value of 44.0% to 47.1%. With
+such low positive predictive values, it is not surprising that
+there are numerous false positives with PCR testing. Indeed,
+theCentersforDiseaseControlandPrevention5foundthatthe
+CDIincidenceincreasedby43%to67%athospitalsthatchange
+from toxin EIAs to PCR-based assays for detection.
+The increase inC difficiledetection associated with PCR-
+baseddiagnosticshasseriousimplicationsatthehospitaland
+patient levels. More positive assays result in more patients in
+contact precautions. Such precautions are costly in that they
+require resources such as single rooms and gowning.Clos-
+tridium difficileinfection incidence data are available to the
+public(http://www.hospitalcompare.hhs.gov/),andthesedata
+maybeusedforvalue-basedpurchasingdecisions(http://www
+Related articlepage 1792
+Overdiagnosis ofClostridium difficileInfectionOriginal InvestigationResearch
+jamainternalmedicine.com(Reprinted)JAMA Internal MedicineNovember 2015   Volume 175, Number 111801
+Copyright 2015 American Medical Association. All rights reserved.
+Downloaded From: http://archinte.jamanetwork.com/ by a University of California - Davis User  on 03/21/2016
+----------------Page (9) Break----------------
